@@ -148,20 +148,26 @@ p
     position: relative;
 }
 
-.industryitems .nav-pills .nav-link.active::before
+.industryitems .nav-pills .nav-link::before
 {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 0;
     height: 4px;
-    background: red;
+    /* background: red; */
     bottom: -5px;
     left: 0;
     border-radius: 20px;
 background: linear-gradient(90deg, #70C17E 0%, rgba(112, 193, 126, 0.00) 71.87%);
+transition: .3s ease;
+}
+.industryitems .nav-pills .nav-link.active::before
+{
+    width: 100%;
 }
 .industryitems .nav-pills .nav-link
 {
+    position: relative;
     font-family: 'poppins';
     color: #fff;
     padding: 0;
@@ -205,7 +211,7 @@ background: linear-gradient(90deg, #70C17E 0%, rgba(112, 193, 126, 0.00) 71.87%)
 .industryitems .tab-content .tabpane-main
 {
     display: flex;
-    gap:30px;
+    gap:60px;
 }
 
 
