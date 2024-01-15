@@ -95,7 +95,7 @@ p
 {
     height: 40vh !important;
 }
-.item1
+/* .item1
 {
     width: 50px;
     height: 50px;
@@ -112,7 +112,7 @@ p
     width: 100px;
     height: 50px;
     background: blue;
-}
+} */
 .nav-canvas-items .container
 {
     display: flex;
@@ -122,33 +122,45 @@ p
 .nav-items-tabs
 {
     position: absolute;
+    transition:0.5s ease;
+    transform-origin: 0% 0%;
 }
-.nav-items-tabs-dnone
+.nav-items-tabs.dnone
 {
-    display: none !important;
+    scale: 0;
+    visibility: hidden;
+    /* transform: translateY(40px); */
+    opacity: 0;
 }
 
 /* .industrysection
 {
-
+    opacity: 0;
+    visibility: hidden;
 }
 .commitmentsection
 {
-
+    opacity: 0;
+    visibility: hidden;
 }
 .companysection
 {
-
+    opacity: 0;
+    visibility: hidden;
 } */
 
 
-.industryitems .nav-pills .nav-link.active
+.nav-drop-items.active
 {
-    background: transparent;
+    background: transparent !important;
     position: relative;
 }
+.nav-drop-items:hover
+{
+    color: #fff !important;
+}
 
-.industryitems .nav-pills .nav-link::before
+.nav-drop-items::before
 {
     content: '';
     position: absolute;
@@ -161,12 +173,13 @@ p
 background: linear-gradient(90deg, #70C17E 0%, rgba(112, 193, 126, 0.00) 71.87%);
 transition: .3s ease;
 }
-.industryitems .nav-pills .nav-link.active::before
+.nav-drop-items.active::before
 {
     width: 100%;
 }
-.industryitems .nav-pills .nav-link
+.nav-drop-items
 {
+    width: fit-content;
     position: relative;
     font-family: 'poppins';
     color: #fff;
@@ -180,10 +193,6 @@ transition: .3s ease;
 {
     gap:60px;
 }
-.industryitems .tab-content
-{
-    margin-top:40px;
-}
 
 
 .inner-nav-items
@@ -195,6 +204,10 @@ transition: .3s ease;
     gap:10px;
     text-decoration: none;
 }
+/* .industryitems .tab-pane
+{
+    margin-top:40px;
+} */
 .inner-nav-items img
 {
     /* width: 40%; */
@@ -208,11 +221,12 @@ transition: .3s ease;
     color: #fff;
     line-height: 20px;
 }
-.industryitems .tab-content .tabpane-main
+/* .industryitems .tab-content .tabpane-main
 {
     display: flex;
     gap:60px;
-}
+} */
+
 
 
 @media screen and (max-width: 1536px)
@@ -221,4 +235,22 @@ transition: .3s ease;
     {
         height: 50vh !important;
     }
+}
+
+.nav-item-main
+{
+    margin-top:40px;
+    display: flex;
+    gap:60px;
+}
+
+.fade:not(.show)
+{
+    transform: translateY(20px);
+    opacity: 0;
+}
+.fade
+{
+    transition: 0.2s ease 0s !important;
+    transform-origin: 50% 50%;
 }

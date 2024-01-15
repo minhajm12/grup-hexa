@@ -75,12 +75,12 @@ dropnav_close.addEventListener('click', function () {
 document.querySelectorAll('.offcnvs-nav').forEach(function(link) {
     link.addEventListener('click', function () {
         document.querySelectorAll('.nav-items-tabs').forEach(function(section) {
-            section.classList.add('d-none');
+            section.classList.add('dnone');
         });
 
         let targetSection = document.querySelector(`.${this.dataset.target}`);
         if (targetSection) {
-            targetSection.classList.remove('d-none');
+            targetSection.classList.remove('dnone');
         }
     });
 });
