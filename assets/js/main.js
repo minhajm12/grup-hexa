@@ -4,7 +4,7 @@ dropnav_open.forEach(function (dropnav_opens) {
     dropnav_opens.addEventListener('click', function () {
         document.querySelector(".nav-canvas-items").classList.add('canvas-active');
       document.querySelector(".canvas-main").classList.add('cnvsmain-active');
-    //   document.querySelector(".industry").classList.add('industry-active');
+      document.querySelector(".canvas-main").classList.add('canvas-main-fixed');
     })
       
 })
@@ -15,6 +15,7 @@ dropnav_close.addEventListener('click', function () {
       document.querySelector(".nav-canvas-items").classList.remove('canvas-active');
       document.querySelector(".canvas-main").classList.remove('cnvsmain-active');
       document.querySelectorAll(".nav-items-tabs").classList.add('nav-items-tabs-dnone');
+      document.querySelector(".canvas-main").classList.remove('canvas-main-fixed');
       
 })
 
@@ -84,3 +85,19 @@ document.querySelectorAll('.offcnvs-nav').forEach(function(link) {
         }
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+// Header Height Selection
+
+const headerHeight = document.getElementById('header').offsetHeight;
+
+document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);

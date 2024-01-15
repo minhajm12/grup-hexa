@@ -5,6 +5,11 @@
     src: url('assets/fonts/Metropolis-Regular.otf');
 }
 
+@font-face {
+    font-family: 'ITCAvantGarde';
+    src: url('assets/fonts/ITCAvantGardeStd-Demi.otf');
+}
+
 
 
 *
@@ -12,6 +17,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root
+{
+    --grade-1:#70C17E;
+    --grade-2:#3B56A5;
+    --main-font:'metropolis';
 }
 
 p
@@ -60,6 +72,12 @@ p
 #header
 {
     position: relative;
+    z-index:5;
+}
+.canvas-main-fixed
+{
+    position: fixed !important;
+    width: 100%;
 }
 
 
@@ -252,5 +270,243 @@ transition: .3s ease;
 .fade
 {
     transition: 0.2s ease 0s !important;
-    transform-origin: 50% 50%;
+    transform-origin: 50% 50%; 
+}
+
+
+
+
+
+
+
+
+
+/* BANNER-CONTENT */
+
+#herobanner-section
+{
+    height: calc(100vh - var(--header-height, 20px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#herobanner-section .left
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: -160px;
+}
+#herobanner-section .banner-title
+{
+    font-size: 72px;
+    font-family: 'metropolis';
+    font-weight: 700;
+    color: #fff;
+}
+#herobanner-section .banner-para
+{
+    color: #fff;
+    line-height: 160%;
+    width: 95%;
+}
+.main-grade
+{
+    background: -webkit-linear-gradient(0deg, var(--grade-1), var(--grade-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-btn
+{
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 30px;
+    font-family: 'poppins';
+    transition: .3s ease;
+}
+.banner-btn:hover
+{
+    background: var(--grade-1);
+    color: #fff;
+}
+
+#herobanner-section .left .banner-social
+{
+    position: absolute;
+    display: flex;
+    gap:20px;
+    bottom: 10%;
+}
+.banner-social a:hover path
+{
+    fill: var(--grade-1) !important;
+}
+path
+{
+    transition: .3s ease;
+}
+
+
+
+
+
+/* ABOUT SECTION */
+
+#aboutsection
+{
+    padding: 10% 0;
+}
+#aboutsection .abt-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+.top-title
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;;
+}
+.main-title
+{
+    font-size: 40px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    margin: 0;;
+}
+.main-para
+{
+    text-align: center;
+    font-size: 18px;
+    /* line-height: 140%; */
+}
+.main-btn
+{
+    padding: 8px 40px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: .3s ease;
+    font-family: 'poppins';
+}
+.main-btn:hover
+{
+    background: var(--grade-1);
+}
+
+
+
+
+
+#servicesection
+{
+    padding: 0 0 10% 0;
+}
+#servicesection .services
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+    margin-top:40px;
+}
+#servicesection .services .service-item
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-decoration: none;
+    color: #000;
+}
+#servicesection .service-head
+{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+#servicesection .service-para
+{
+    margin-top: 15px;
+}
+#servicesection .services .img-div
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.top-hexa
+{
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+    transition: .3s ease;
+}
+#servicesection .services .img-div:hover .top-hexa
+{
+    scale: 2;
+    transform: rotate(90deg);
+}
+#servicesection .services .img-div:hover img
+{
+    scale: 1.1;
+}
+#servicesection .services .img-div img
+{
+    transition: .3s ease;
+}
+#servicesection .services .service-desc
+{
+    padding:20px 30px;
+}
+.service-btn
+{
+    display: flex;
+    padding:5px 40px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'poppins';
+    width: fit-content;
+    gap:20px;
+    border:.5px solid #000;
+    border-radius: 30px;
+    transition: .3s ease;
+}
+.service-btn:hover
+{
+    background: #000;
+    color: #fff;
+}
+.service-btn:hover img
+{
+    filter: invert(100%);
+    transform: rotate(45deg);
+}
+.service-btn img
+{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    transition: .3s ease;
+}
+.service-btn p
+{
+    margin:0;
 }
