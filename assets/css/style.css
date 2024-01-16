@@ -405,6 +405,7 @@ path
     font-weight: 600;
     transition: .3s ease;
     font-family: 'poppins';
+    width: fit-content;
 }
 .main-btn:hover
 {
@@ -509,4 +510,236 @@ path
 .service-btn p
 {
     margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Call Action Section */
+#ctasection
+{
+    width: 100%;
+    height: 60vh;
+    background: url('/assets/img/banner/cta-sec-bg.jpg');
+    background-size: cover;
+    background-attachment:fixed ;
+    /* margin-bottom: 10%; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.back-logo
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    scale: 1;
+    mix-blend-mode: hard-light;
+}
+.back-logo img
+{
+    scale: .9;
+    opacity: .9;
+    z-index:-1;
+
+}
+#ctasection .cta-main
+{
+    width: 100%;
+    padding: 5% 2%;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(30px);
+    z-index:1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+#ctasection .cta-main .main-title
+{
+    text-align: center;
+    color: #fff;
+}
+#ctasection .cta-main .main-para
+{
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10%;
+    margin: 0;
+}
+#ctasection .cta-main .main-btn
+{
+    width: fit-content;
+    color: #000;
+    background: #fff;
+}
+#ctasection .cta-main .main-btn:hover
+{
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#social-section
+{
+    padding:10% 0;
+}
+#social-section .left
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#social-section .left .main-para span
+{
+    font-weight: 600;
+}
+#social-section .main-para
+{
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    padding-right: 120px;
+}
+#social-section .main-btn
+{
+    width: fit-content;
+}
+
+#social-section .right .img-div
+{
+    position: relative;
+}
+#social-section .right .img-div .socialimg
+{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+
+
+
+
+
+
+
+#blogsection
+{
+    padding: 2% 0 10% 0;
+}
+#blogsection .right
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#blogsection .right .main-btn
+{
+    height: fit-content;
+}
+#blogsection .blog-main
+{
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+#blogsection .blog-main .img-div
+{
+    overflow: hidden;
+    border-radius: 20px;
+}
+#blogsection .blog-main .img-div img
+{
+    transition: .3s ease;
+}
+#blogsection .blog-main .img-div:hover img
+{
+    scale: 1.1;
+}
+#blogsection .blog-main .blog-desc .main-grade
+{
+    font-size: 18px;
+    font-weight: 500;
+    width: fit-content;
+    font-family: var(--main-font);
+}
+#blogsection .blog-desc .top-blog
+{
+    display: flex;
+    justify-content: space-between;
+}
+#blogsection .blog-desc
+{
+    padding: 20px;
+    gap:60px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+#blogsection .blog-desc .top-blog p, #blogsection .blog-desc .top-blog i
+{
+    margin: 0;
+    font-size: 14px;
+}
+.cal-sec
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cal-sec i
+{
+    margin-top: -3px;
+}
+#blogsection .blog-desc h4
+{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--main-font);
+    line-height: 22px;
+    margin: 0;
+}
+#blogsection .blog-desc p
+{
+    font-size: 16px;
+    margin: 0;
+}
+#blogsection .blog-desc .service-btn
+{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 30px;
 }
