@@ -135,7 +135,7 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:2
+                items:1
             },
             1300:{
                 items:3
