@@ -10,7 +10,10 @@
     src: url('assets/fonts/ITCAvantGardeStd-Demi.otf');
 }
 
-
+body
+{
+    padding: 0 !important;
+}
 
 *
 {
@@ -984,4 +987,37 @@ path
     {
         grid-template-columns: 2;
     }
+}
+
+
+/* Header 2 style */
+@media only screen and (max-width: 992px)
+{
+    /* #header-2 .nav-link
+    {
+        color: #fff;
+        font-size: 22px;
+    }
+    #header-2 .navbar-collapse
+    {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: #000;
+        left: 0;
+        padding: 30px;
+    }
+    .navbar-collapse.collapse
+    {
+        transition: height 0.5s ease !important;
+    }
+    #header-2 .navbar
+    {
+        position: relative;
+    }
+    #header-2 .navbar-collapse.show .navbar
+    {
+        background:#000 !important;
+
+    } */
 }
