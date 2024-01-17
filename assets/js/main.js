@@ -127,7 +127,7 @@ $(document).ready(function(){
     $('.blog-main').owlCarousel({
         margin:20,
         // infinite:true,
-        // loop:true,
+        loop:true,
         nav: false,
         dots:true,
         dotsEach: true,
