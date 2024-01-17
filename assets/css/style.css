@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=var(--scndry-font):ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
     font-family: 'metropolis';
@@ -41,6 +41,9 @@ p,a
 {
     background: black;
     background: url('../img/banner/banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height:100vh;
 }
 #herosection .navbar
@@ -251,13 +254,7 @@ transition: .3s ease;
 
 
 
-@media screen and (max-width: 1536px)
-{
-    .canvas-active
-    {
-        height: 50vh !important;
-    }
-}
+
 
 .nav-item-main
 {
@@ -545,6 +542,7 @@ path
     background: url('../img/banner/cta-sec-bg.jpg');
     background-size: cover;
     background-attachment:fixed ;
+    background-position: center center;
     /* margin-bottom: 10%; */
     position: relative;
     display: flex;
@@ -647,15 +645,17 @@ path
     width: fit-content;
 }
 
-#social-section .right .img-div
+#social-section .right .img-div div
 {
     position: relative;
+    /* padding: 80px; */
 }
 #social-section .right .img-div .socialimg
 {
     position: absolute;
     left: 0;
     top:0;
+    /* padding: 80px; */
 }
 
 
@@ -696,6 +696,7 @@ path
 #blogsection .blog-main .img-div img
 {
     transition: .3s ease;
+    filter: saturate(0) ;
 }
 #blogsection .blog-main .img-div:hover img
 {
@@ -844,7 +845,7 @@ path
     background: url(../img/banner/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding:5% 10%;
+    padding:5% 7%;
     border-radius: 40px;
 }
 #footersection .footer-1
@@ -859,7 +860,7 @@ path
 }
 #footersection .footer-1 .main-para
 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #fff;
     text-align: left;
@@ -868,11 +869,12 @@ path
 }
 #footersection .footer-1 .newsletter .form input
 {
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin: 0;
     border: none;
     background: transparent;
-    width: 250px;
+    width: 100%;
+    color: #fff;
 }
 #footersection .footer-1 .newsletter .form input:focus
 {
@@ -894,7 +896,7 @@ path
 }
 #footersection .footer-1 .newsletter .form button
 {
-    padding: 10px 15px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     background: #ffffffc4;
@@ -906,7 +908,7 @@ path
 }
 #footersection .footer-1 .newsletter h5
 {
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     font-size: 16px;
     font-family: var(--scndry-font);
@@ -978,17 +980,41 @@ path
 
 
 
-
-
-
-@media only screen and (max-width: 992px)
+.innerdrop-item.dnone
 {
-    #servicesection .services
-    {
-        grid-template-columns: 2;
-    }
+    display: none;
+}
+.innerdrop-item li
+{
+    color: #fff;
 }
 
+
+
+
+@media screen and (max-width: 1536px)
+{
+    .canvas-active
+    {
+        height: 50vh !important;
+    }
+    #ctasection
+    {
+        height: 70vh;
+    }
+    #herobanner-section .banner-title
+    {
+        font-size: 62px;
+    }
+    #herobanner-section .left
+    {
+        margin-top:-120px;
+    }
+    .banner-btn
+    {
+        font-size: 16px;
+    }
+}
 
 /* Header 2 style */
 @media only screen and (max-width: 992px)
@@ -1021,6 +1047,12 @@ path
 
     } */
 
+
+    #herobanner-section .banner-para
+    {
+        width: 85%;
+    }
+
     .offcanvas
     {
         background: #000 !important;
@@ -1031,6 +1063,8 @@ path
     {
         color: #fff;
         width: fit-content;
+        font-size: 20px;
+        padding: 10px;
     }
     .offcanvas .navbar-nav .nav-link.show
     {
@@ -1043,5 +1077,128 @@ path
         width: 5px;
         height: 5px;
         opacity: 1;
+        transform: translateX(-15px);
+    }
+    .navbar-toggler-icon
+    {
+        background-image: url(../img/icons/nav-bars.svg);
+        background-size: contain;
+
+    }
+    .navbar-toggler
+    {
+        border:none;
+    }
+    .navbar-toggler:focus
+    {
+        box-shadow: none;
+    }
+
+
+
+    #herobanner-section .banner-title
+    {
+        font-size: 62px;
+    }
+    .main-title
+    {
+        font-size: 34px;
+    }
+    .top-title
+    {
+        font-size: 18px;
+    }
+    .main-para
+    {
+        font-size: 16px;
+    }
+
+
+
+    #servicesection .services
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    #ctasection
+    {
+        height: 40vh;
+    }
+    #ctasection .cta-main .main-para
+    {
+        padding: 0 8%;
+    }
+
+    #social-section .main-para
+    {
+        padding-right: 0;
+    }
+    #social-section .right .img-div
+    {
+        padding: 60px;
+    }
+
+    #blogsection .blog-desc h4
+    {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #blogsection .blog-desc
+    {
+        gap:10px;
+    }
+    #blogsection .blog-desc p
+    {
+        font-size: 14px;
+    }
+    #blogsection .blog-main .blog-desc .main-grade
+    {
+        font-size: 16px;
+    }
+
+
+
+    #footersection .footer-main
+    {
+        padding: 6%;
+        border-radius: 30px;
+    }
+    #footersection .footer-1 .newsletter .form input
+    {
+        /* width: 200px; */
+    }
+    #footersection .footer-cols ul li
+    {
+        margin:10px 0;
+    }
+    #footersection .footer-cols h4
+    {
+        margin:30px 0 20px 0;
+        font-size: 20px;
+    }
+    #footersection .footer-1 .newsletter .form
+    {
+        width: 95%;
+    }
+    #footersection .copyright p
+    {
+        font-size: 14px;
+    }
+    #footersection
+    {
+        margin :0 2%;
+    }
+    #footersection .container
+    {
+        padding: 0;
+    }
+    #footersection .footer-1 .newsletter h5
+    {
+        font-weight: 500;
+    }
+    #footersection .footer-1 .main-para
+    {
+        width: 100%;
     }
 }

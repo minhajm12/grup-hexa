@@ -135,7 +135,7 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:1
+                items:2
             },
             1300:{
                 items:3
@@ -145,4 +145,22 @@ $(document).ready(function(){
             }
         }
       })
+});
+
+
+
+
+
+// MOBILE INNER NAVDROPDOWN
+document.querySelectorAll('.innerdrop').forEach(function(link) {
+    link.addEventListener('click', function () {
+        document.querySelectorAll('.innerdrop-item').forEach(function(section) {
+            section.classList.add('dnone');
+        });
+
+        let targetSection = document.querySelector(`.${this.dataset.target}`);
+        if (targetSection) {
+            targetSection.classList.remove('dnone');
+        }
+    });
 });
