@@ -2,12 +2,12 @@
 
 @font-face {
     font-family:'Metropolis';
-    src: url('assets/fonts/Metropolis-Regular.otf');
+    src: url('assets/fonts/Metropolis-Regular.otf') ;
 }
 
 @font-face {
     font-family: 'ITCAvantGarde';
-    src: url('assets/fonts/ITCAvantGardeStd-Demi.otf');
+    src: url('assets/fonts/ITCAvantGardeStd-Demi.otf') ;
 }
 
 body
