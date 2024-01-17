@@ -306,6 +306,19 @@ transition: .3s ease;
     font-weight: 700;
     color: #fff;
 }
+#herobanner-section .banner-title .main-grade
+{
+    -webkit-text-fill-color: #ffffff54;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+
+}
+#herobanner-section .banner-title:hover .main-grade
+{
+    -webkit-text-fill-color: #ffffff00;
+    /* -webkit-transition: .3s ease; */
+    /* transition: .3s ease; */
+}
 #herobanner-section .banner-para
 {
     color: #fff;
@@ -980,14 +993,6 @@ path
 
 
 
-.innerdrop-item.dnone
-{
-    display: none;
-}
-.innerdrop-item li
-{
-    color: #fff;
-}
 
 
 
@@ -1112,12 +1117,20 @@ path
     {
         font-size: 16px;
     }
+    .main-btn
+    {
+        font-size: 16px;
+    }
 
 
 
     #servicesection .services
     {
         grid-template-columns: repeat(1,1fr);
+    }
+    .top-hexa
+    {
+        right:-7%;
     }
 
 
@@ -1200,5 +1213,163 @@ path
     #footersection .footer-1 .main-para
     {
         width: 100%;
+    }
+    #footersection .copyright div
+    {
+        gap:0px;
+    }
+    #footersection .copyright svg
+    {
+        width: 70%;
+    }
+
+
+    
+
+
+    .mobilemenu .navbar-nav .dropdown-menu
+    {
+        transition: .3s ease !important;
+        /* transform:translateX(40px) !important; */
+        scale: 0;
+        padding: 10px 0 20px 0;
+        width: 100%;
+        /* background: transparent; */
+    }
+    .mobilemenu .navbar-nav .dropdown-menu.show
+    {
+        position: relative !important;
+        transform: none !important;
+        inset: auto !important;
+        scale: 1;
+    }
+    .mobilemenu .dropdown-menu li
+    {
+        padding: 10px 20px;
+    }
+    .mobilemenu .dropdown-menu li a
+    {
+        /* color: #fff; */
+        /* background: #fff;
+        padding:5px 20px;
+        border-radius: 5px; */
+    }
+    .mobilemenu .innerdrop
+    {
+        position: relative;
+        padding: 0;
+        width: fit-content;
+    }
+    .mobilemenu .innerdrop::after
+    {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background: linear-gradient(to right, var(--grade-1), transparent);
+    }
+    .mobilemenu .innerdrop span
+    {
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    /* .mobilemenu .innerdrop-item
+    {
+        scale: 1;
+        transform: translateX(0);
+        transition: .3s ease;
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    } */
+    .mobilemenu .innerdrop-item.dnone
+    {
+        /* scale: 0; */
+        display: none;
+        /* height: 0; */
+        /* opacity: 0; */
+        /* visibility: hidden; */
+        /* transform: translateX(80px); */
+        /* height: 0; */
+    }
+    .mobilemenu .innerdrop-item li
+    {
+        margin: 15px 0;
+    }
+    .mobilemenu .innerdrop-item li a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+        display: flex;
+    }
+    .mobilemenu .innerdrop-item li a span
+    {
+        font-weight: 600;
+        margin-right:10px;
+        color: var(--grade-1);
+    }
+    .mobilemenu .innerdrop-item li a p
+    {
+        margin:0;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    #herobanner-section .left
+    {
+        padding-left: 10px;
+        margin-top:-200px;
+    }
+    #herobanner-section .banner-title
+    {
+        font-size: 42px;
+    }
+    #herobanner-section .banner-para
+    {
+        width: 90%;
+        font-size: 14px;
+        letter-spacing: .2px;
+    }
+    #herosection
+    {
+        background-position: 65%;
+    }
+
+    #aboutsection
+    {
+        padding: 20% 0;
+    }
+    #aboutsection .abt-main
+    {
+        align-items: start;
+    }
+    #aboutsection .top-title
+    {
+        text-align: left !important;
+    }
+    .main-para
+    {
+        font-size: 16px;
+        text-align: left;
+    }
+    .main-btn
+    {
+        font-size: 14px;
+    }
+    .main-title
+    {
+        font-size: 30px;
     }
 }

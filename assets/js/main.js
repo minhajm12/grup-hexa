@@ -1,4 +1,5 @@
 // Open Menu
+
 let dropnav_open = document.querySelectorAll('.offcnvs-nav');
 dropnav_open.forEach(function (dropnav_opens) {
     dropnav_opens.addEventListener('click', function () {
@@ -10,6 +11,7 @@ dropnav_open.forEach(function (dropnav_opens) {
 })
 
 // Close Menu
+
 let dropnav_close = document.querySelector('.canvas-main')
 dropnav_close.addEventListener('click', function () {
       document.querySelector(".nav-canvas-items").classList.remove('canvas-active');
@@ -96,10 +98,11 @@ document.querySelectorAll('.offcnvs-nav').forEach(function(link) {
 
 
 
+
+
 // Header Height Selection
 
 const headerHeight = document.getElementById('header').offsetHeight;
-
 document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
 
 
@@ -151,16 +154,43 @@ $(document).ready(function(){
 
 
 
-// MOBILE INNER NAVDROPDOWN
-document.querySelectorAll('.innerdrop').forEach(function(link) {
-    link.addEventListener('click', function () {
-        document.querySelectorAll('.innerdrop-item').forEach(function(section) {
-            section.classList.add('dnone');
-        });
 
+
+
+
+
+
+
+
+
+// MOBILE INNER NAVDROPDOWN
+
+// Function to hide innerdrop-item elements
+function hideInnerdropItems() {
+    document.querySelectorAll('.innerdrop-item').forEach(function (section) {
+        section.classList.add('dnone');
+    });
+}
+
+// Event listener for innerdrop links
+document.querySelectorAll('.innerdrop').forEach(function (mobilelink) {
+    mobilelink.addEventListener('click', function () {
+        // Hide other innerdrop-item elements
+        hideInnerdropItems();
+
+        // Show the target innerdrop-item element
         let targetSection = document.querySelector(`.${this.dataset.target}`);
         if (targetSection) {
             targetSection.classList.remove('dnone');
         }
     });
+});
+
+// Event listener for clicks outside innerdrop
+document.addEventListener('click', function (event) {
+    // Check if the clicked element is not inside any innerdrop
+    if (!event.target.closest('.innerdrop')) {
+        // Hide all innerdrop-item elements
+        hideInnerdropItems();
+    }
 });
