@@ -1372,4 +1372,151 @@ path
     {
         font-size: 30px;
     }
+    .top-title
+    {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+    #servicesection .services .service-desc
+    {
+        padding: 15px 20px;
+    }
+    #servicesection .service-head
+    {
+        font-size:20px;
+    }
+    .service-btn
+    {
+        padding: 5px 30px;
+    }
+    #servicesection .service-btn p
+    {
+        font-size: 14px;
+    }
+    .service-btn img
+    {
+        width: 14px;
+    }
+    #servicesection .service-para
+    {
+        font-size: 14px;
+    }
+    #servicesection
+    {
+        padding: 0 0 20% 0;
+    }
+    #servicesection .services
+    {
+        margin-top:30px;
+    }
+
+
+
+
+    #ctasection
+    {
+        height: 55vh;
+        overflow: hidden;
+    }
+    .back-logo img
+    {
+        scale:.8;
+    }
+
+    #ctasection .cta-main .main-para
+    {
+        padding: 0 4%;
+        text-align: center;
+    }
+
+    #ctasection .cta-main
+    {
+        gap:10px;
+        padding: 8% 2%;
+    }
+    #ctasection .cta-main .main-title
+    {
+        font-size: 24px;
+    }
+    #ctasection .cta-main .main-btn
+    {
+        padding: 5px 30px;
+    }
+    .container
+    {
+        padding: 0 20px !important;
+    }
+
+
+    #social-section
+    {
+        padding: 20% 0;
+    }
+    #social-section .left
+    {
+        gap:10px;
+    }
+    #social-section .right .img-div
+    {
+        padding: 0 40px 50px;
+    }
+    #blogsection .right
+    {
+        /* justify-content: start; */
+    }
+    #blogsection .owl-dot.active
+    {
+        width: 25px;
+    }
+
+
+
+    #footersection
+    {
+        margin:0 10px;
+    }
+    #footersection .footer-main
+    {
+        padding: 10% 4%;
+    }
+    #footersection .footer-1 .footer-logo
+    {
+        width: 90%;
+    }
+
+    #footersection .copyright
+    {
+        flex-direction: column;
+    }
+    #footersection .copyright p
+    {
+        text-align: center;
+    }
+    #footersection .copyright div
+    {
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+
+    #herosection .navbar-brand img
+    {
+        width: 80%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .container
+    {
+        padding: 0 10px !important;
+    }
 }
