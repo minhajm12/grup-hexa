@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6
     background-position: center;
     height:100vh;
 }
-#herosection .navbar
+#header .navbar
 {
     background: transparent !important;
     padding: 20px 0;
@@ -408,7 +408,7 @@ path
 {
     text-align: center;
     font-size: 18px;
-    /* line-height: 140%; */
+    /* line-height: 160%; */
 }
 .main-btn
 {
@@ -511,7 +511,7 @@ path
     font-family: var(--scndry-font);
     width: fit-content;
     gap:20px;
-    border:.5px solid #000;
+    border:1px solid #000;
     border-radius: 30px;
     transition: .3s ease;
 }
@@ -552,6 +552,10 @@ path
 
 
 /* Call Action Section */
+.cta-sec-main
+{
+    padding: 0 0 10% 0;
+}
 #ctasection
 {
     width: 100%;
@@ -638,7 +642,7 @@ path
 /* SOCIAL SECTION */
 #social-section
 {
-    padding:10% 0;
+    padding:0 0 10% 0;
 }
 #social-section .left
 {
@@ -654,7 +658,7 @@ path
 #social-section .main-para
 {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding-right: 120px;
 }
@@ -1024,6 +1028,14 @@ path
     {
         font-size: 16px;
     }
+    .main-para
+    {
+        font-size: 16px;
+    }
+    #social-section .main-para
+    {
+        font-size: 16px;
+    }
 }
 
 /* Header 2 style */
@@ -1377,6 +1389,7 @@ path
     .main-btn
     {
         font-size: 14px;
+        padding: 10px 40px;
     }
     .main-title
     {
@@ -1394,7 +1407,7 @@ path
 
     #servicesection .services .service-desc
     {
-        padding: 15px 20px;
+        padding: 15px;
     }
     #servicesection .service-head
     {
@@ -1402,7 +1415,7 @@ path
     }
     .service-btn
     {
-        padding: 5px 30px;
+        padding: 8px 30px;
     }
     #servicesection .service-btn p
     {
@@ -1441,7 +1454,7 @@ path
     }
     .back-logo img
     {
-        scale:.8;
+        scale:.7;
     }
 
     #ctasection .cta-main .main-para
@@ -1502,6 +1515,10 @@ path
     #blogsection .blog-desc h4
     {
         font-size: 16px;
+    }
+    #blogsection .blog-desc
+    {
+        padding: 15px;
     }
     .cal-sec
     {
@@ -1603,24 +1620,46 @@ path
     .service-btn
     {
         border: 1px solid #000;
+        gap:10px;
     }
+    #servicesection .service-btn p
+    {
+        font-size: 12px;
+    }
+    .service-btn img
+    {
+        width: 10px;
+    }
+
+
+    #ctasection .cta-main .main-para
+    {
+        font-size: 13px;
+    }
+
     #blogsection .blog-desc .service-btn
     {
         font-size: 12px;
     }
     .back-logo img
     {
-        scale: .7;
+        scale: .6;
     }
     #blogsection .blog-main
     {
         margin-top:20px;
+    }
+    #blogsection .owl-dots button
+    {
+        width: 8px;
+        height: 8px;
     }
 
     #social-section .main-para
     {
         font-size: 14px;
     }
+    
 
 
 
@@ -1642,5 +1681,182 @@ path
     #footersection .footer-1 .main-para
     {
         font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+#about-hero
+{
+    height: 50vh;
+    background: url(../img/banner/banner-img.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#aboutbanner-section
+{
+    height: calc(50vh - var(--header-height, 20px));
+    display: flex;
+    align-items: center;
+}
+.inner-main-title
+{
+    margin-top:-60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-main-title h2
+{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#abt-page-sec
+{
+    padding:10% 0;
+}
+#abt-page-sec .left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+#abt-page-sec .right .img-div img
+{
+    /* width: fit-content; */
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+#abt-page-sec .right .main-right
+{
+    display: flex;
+    gap:40px;
+    padding-left: 40px;
+    justify-content: end;
+}
+#abt-page-sec .right .counter-sec
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap:40px;
+}
+#abt-page-sec .right .counter-div-main p
+{
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+}
+#abt-page-sec .right .counter-div
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+#abt-page-sec .right .counter-div .counter
+{
+    font-size: 54px;
+    font-weight: 700;
+}
+#abt-page-sec .bottom-sec
+{
+    padding-top: 10%;
+}
+#abt-page-sec .bottom-sec .right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1536px)
+{
+    .inner-main-title
+    {
+        margin-top:-40px;
+    }
+    #about-hero
+    {
+        height: 55vh;
+    }
+    #aboutbanner-section
+    {
+        height: calc(55vh - var(--header-height, 20px));
+    }
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    #aboutbanner-section
+    {
+        height: calc(40vh - var(--header-height, 20px));
+    }
+    #about-hero
+    {
+        height: 40vh;
+    }
+    #abt-page-sec .right .main-right
+    {
+        justify-content: center;
     }
 }
