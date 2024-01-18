@@ -1555,7 +1555,7 @@ path
     }
 
 
-    #herosection .navbar-brand img
+    #header .navbar-brand img
     {
         width: 80%;
     }
@@ -1747,7 +1747,7 @@ path
     background-size: cover;
 }
 
-#aboutbanner-section
+.inner-pg-bnner
 {
     height: calc(50vh - var(--header-height, 20px));
     display: flex;
@@ -1838,7 +1838,7 @@ path
     {
         height: 55vh;
     }
-    #aboutbanner-section
+    .inner-pg-bnner
     {
         height: calc(55vh - var(--header-height, 20px));
     }
@@ -1847,7 +1847,7 @@ path
 
 @media only screen and (max-width: 992px)
 {
-    #aboutbanner-section
+    .inner-pg-bnner
     {
         height: calc(40vh - var(--header-height, 20px));
     }
@@ -1858,5 +1858,152 @@ path
     #abt-page-sec .right .main-right
     {
         justify-content: center;
+        padding: 60px 0 20px 0;
     }
+    #abt-page-sec .bottom-sec .img-div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #abt-page-sec .bottom-sec .img-div
+    {
+        padding-top:60px;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #about-hero .container
+    {
+        padding:0 10px !important;
+    }
+    .inner-main-title h2
+    {
+        font-size: 30px;
+    }
+    #abt-page-sec .right .main-right
+    {
+        padding: 40px 0 30px 0;
+    }
+    #abt-page-sec .bottom-sec .img-div
+    {
+        padding: 30px 0 30px 0;
+    }
+    #abt-page-sec .bottom-sec .img-div img
+    {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 380px)
+{
+    #about-hero .container
+    {
+        padding:0 5px !important;
+    }
+    .inner-pg-bnner
+    {
+        height: calc(45vh - var(--header-height, 20px));
+    }
+    #about-hero
+    {
+        height: 45vh;
+    }
+    .inner-main-title h2
+    {
+        font-size: 26px;
+    }
+
+    #header .container-fluid
+    {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE SECTION */
+#contact-section
+{
+    height: 50vh;
+    background: url(../img/banner/contact-img.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+#form-section
+{
+    padding: 10% 0;
+}
+#form-section .left .img-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+#form-section .right
+{
+    padding:0 5%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+#form-section .right p
+{
+    margin:0;
+}
+#form-section .right .main-form-div input
+{
+    border:1px #000 solid;
+    outline: none;
+    padding:10px 20px;
+    border-radius: 30px;
+    width: 100%;
+    font-family: var(--scndry-font);
+}
+#form-section .right .main-form-div textarea 
+{
+    border:1px #000 solid;
+    outline: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    font-family: var(--scndry-font);
+}
+#form-section .right .main-form-div input::placeholder,
+#form-section .right .main-form-div textarea::placeholder
+{
+    font-size: 14px;
+}
+#form-section .right .main-form-div form
+{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+#form-section .right .main-form-div button
+{
+    border: none;
+    width: 100%;
+    padding: 12px 0 !important;
 }
