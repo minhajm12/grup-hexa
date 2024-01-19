@@ -2150,22 +2150,22 @@ path
 
 
 /* epc section */
-#epcsection
+.innerpg-section
 {
     padding: 10% 0;
 }
-#epcsection .left
+.innerpg-section .top-sec .left
 {
     display: flex;
     align-items: center;
 }
-#epcsection .right
+.innerpg-section .top-sec .right
 {
     display: flex;
     align-items: center;
     padding-left: 80px;
 }
-#epcsection .right .img-div img
+.innerpg-section .img-div img
 {
     border-radius: 20px;
 }
@@ -2174,5 +2174,112 @@ path
     display: flex;
     flex-direction: column;
     gap:20px;
+    justify-content: center;
+}
+.innerpg-section .bottom-sec
+{
+    padding: 10% 0;
+}
+.innerpg-section .bottom-sec .left
+{
+    display: flex;
     align-items: center;
+    padding-right: 80px;
+}
+.innerpg-section .bottom-sec .right
+{
+    display: flex;
+    align-items: center;
+}
+.innerpg-section .bottom-sec .right ul li
+{
+    list-style: none;
+    padding: 7px 34px;
+    background-image: url("../img/logo/hexa-icon.svg");
+    background-repeat: no-repeat;
+    background-position: left 8px;
+    background-size: 22px;
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.innerpg-section .weblink-sec
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+}
+.innerpg-section .weblink-sec h5
+{
+    font-weight: 600;
+}
+.innerpg-section .weblink-sec .items
+{
+    display: flex;
+    gap:20px;
+}
+.innerpg-section .weblink-sec .items a
+{
+    text-decoration: none;
+}
+.innerpg-section .weblink-sec .items .btn
+{
+    padding: 15px 50px;
+    background: #000;
+    border: 1px #000 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+}
+.innerpg-section .weblink-sec .items .btn img
+{
+    width: 100%;
+    /* aspect-ratio: 3/2; */
+    /* object-fit: contain; */
+}
+.innerpg-section .weblink-sec .items .btn i
+{
+    color:#fff;
+    transform: rotate(-45deg);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-top:3px;
+    transition: .3s ease;
+    /* font-weight: 300; */
+}
+.innerpg-section .weblink-sec .items .btn:hover i
+{
+    transform: rotate(0);
+}
+/* .innerpg-section .weblink-sec .items .btn .svg
+{
+    width:20%;
+    padding-top: 4px;
+    transition: .3s ease;
+}
+.innerpg-section .weblink-sec .items .btn:hover .svg
+{
+    transform: rotate(45deg);
+} */
+
+
+
+
+.service-inner .services
+{
+    display: flex !important;
+    gap:unset !important;
+}
+.service-inner .service-desc
+{
+    padding: 20px 10px !important;
+}
+.service-inner .service-desc .service-para
+{
+    font-size: 14px;
 }
