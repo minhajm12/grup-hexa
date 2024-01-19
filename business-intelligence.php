@@ -34,7 +34,7 @@
         <div class="inner-pg-bnner">
             <div class="container">
                 <div class="inner-main-title">
-                    <h2>Hexa EPC</h2>
+                    <h2>Business Intelligence</h2>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
                     <div class="col-12 col-lg-6 left">
                         <div class="content-parasec">
                             <div>
-                                <p class="top-title text-start">Hexa EPC</p>
+                                <p class="top-title text-start">business Intelligence</p>
                                 <h2 class="main-title">Engineering, Procurement & <span class="main-grade"><br class="d-block d-md-none">Constructions. LLC</span></h2>
                             </div>
                             <div>
@@ -101,18 +101,17 @@
                 <div class="items">
                     <a href="https://reftco.com/">
                         <div class="btn">
-                            <img src="assets/img/services/inner/refco.png" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/tranquil.png" alt="" class="img-fluid">
                            <i class="fa-solid fa-arrow-right-long"></i>
                             <!-- <img src="assets/img/icons/web-link-arrow.svg" alt="" class="svg img-fluid"> -->
                         </div>
                     </a>
-                    <a href="https://www.mashhorme.com/">
+                    <!-- <a href="https://www.mashhorme.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/mashhor.png" alt="" class="img-fluid">
                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <!-- <img src="assets/img/icons/web-link-arrow.svg" alt="" class="svg img-fluid"> -->
                         </div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
