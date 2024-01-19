@@ -312,16 +312,16 @@ transition: .3s ease;
 }
 #herobanner-section .banner-title .main-grade
 {
-    -webkit-text-fill-color: #ffffff;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
     -webkit-transition: .3s ease;
     transition: .3s ease;
 
 }
 #herobanner-section .banner-title:hover .main-grade
 {
-    -webkit-text-fill-color: #ffffff00;
-    /* -webkit-transition: .3s ease; */
-    /* transition: .3s ease; */
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
 }
 #herobanner-section .banner-para
 {
@@ -332,8 +332,8 @@ transition: .3s ease;
 .main-grade
 {
     background: -webkit-linear-gradient(0deg, var(--grade-1), var(--grade-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .banner-btn
 {
@@ -1834,9 +1834,9 @@ path
     {
         margin-top:-40px;
     }
-    #about-hero
+    .mainbanner-sec
     {
-        height: 55vh;
+        height: 55vh !important;
     }
     .inner-pg-bnner
     {
@@ -1851,9 +1851,9 @@ path
     {
         height: calc(40vh - var(--header-height, 20px));
     }
-    #about-hero
+    .mainbanner-sec
     {
-        height: 40vh;
+        height: 40vh !important;
     }
     #abt-page-sec .right .main-right
     {
@@ -1907,13 +1907,13 @@ path
     {
         height: calc(45vh - var(--header-height, 20px));
     }
-    #about-hero
+    .mainbanner-sec
     {
-        height: 45vh;
+        height: 45vh !important;
     }
     .inner-main-title h2
     {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #header .container-fluid
@@ -1939,14 +1939,23 @@ path
 
 
 
+
+
+
+
 /* CONTACT PAGE SECTION */
+.mainbanner-sec
+{
+    height: 50vh;    
+}
 #contact-section
 {
-    height: 50vh;
     background: url(../img/banner/contact-img.png);
-    background-position: center center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 
 
@@ -2006,4 +2015,148 @@ path
     border: none;
     width: 100%;
     padding: 12px 0 !important;
+}
+
+
+#locationsection
+{
+    padding: 0 0 10% 0;
+}
+#locationsection .container-fluid
+{
+    padding: 0 10%;
+}
+#locationsection .branches-main
+{
+    background: #000;
+    padding: 40px 60px 140px 60px;
+    border-radius: 20px;
+}
+#locationsection .branches-main .main-title
+{
+    color:#fff;
+}
+#locationsection .branches-section .branches-main
+{
+    display: flex;
+    flex-direction: column;
+}
+#locationsection .branches-section h4
+{
+    color:#fff;
+    font-weight: 600;
+}
+#locationsection .branches-section p
+{
+    color: #fff;
+    font-size: 16px;
+}
+#locationsection .branches-section
+{
+    padding:40px 40px 0 0;
+}
+#locationsection .location-mapsec iframe
+{
+    border: 0;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -100px;
+    filter: saturate(0);
+    transition: .3s ease;
+}
+#locationsection .location-mapsec iframe:hover
+{
+    filter: saturate(1);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1536px)
+{
+    #locationsection .container-fluid
+    {
+        padding: 0 6%;
+    }
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    #form-section .left .img-div
+    {
+        padding: 0 8% 10% 8%;
+    }
+    #form-section .right
+    {
+        padding: 0 8%;
+    }
+    /* #locationsection .branches-main
+    {
+        padding: ;
+    } */
+    #locationsection .branches-section
+    {
+        padding:40px 0 0 0;
+
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #locationsection .branches-main
+    {
+        padding: 40px 30px 140px 30px;
+    }
+    #locationsection .branches-section p
+    {
+        font-size: 14px;
+    }
+    #locationsection .branches-section
+    {
+        padding:30px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 380px)
+{
+    #form-section .right
+    {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* EPC BANNER SECTION */
+#epc-banner
+{
+    background: url(../img/banner/epc-banner-img.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+
+/* epc section */
+#epcsection
+{
+    padding: 10% 0;
+}
+.content-parasec
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }

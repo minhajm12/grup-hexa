@@ -29,7 +29,7 @@
 
 
     <!-- CONTACT SECTION -->
-    <div id="contact-section">
+    <section id="contact-section" class="mainbanner-sec">
 
         <?php include('inc/header.php'); ?>
 
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -49,7 +49,7 @@
 
 
     <!-- FORM SECTION -->
-    <div id="form-section">
+    <section id="form-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 left">
@@ -74,14 +74,68 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+
+
+    <!-- LOCATION SECTION -->
+    <section id="locationsection">
+        <div class="container-fluid">
+            <div class="branches-main">
+                <h3 class="main-title">Hexa <span class="main-grade">Branches</span></h3>
+                <div class="branches-section">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Abu Dhabi</h4>
+                            <p>P.O.Box 72390, Hamdan Street Abu Dhabi, UAE</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Dubai</h4>
+                            <p>DSO-HQ-C4-405/1Headquarter, Dubai Silicon Oasis, Dubai, UAE</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Riyadh</h4>
+                            <p>Salah Ud Din Al Ayyoubi St. Al Malaz, Riyadh Saudi Arabia</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Al Khobar</h4>
+                            <p>Prince Saad Bin Abdulaziz Street Cross 4, Shamaliya, Al Khobar Kingdom of Saudi Arabia</p>
+                        </div>
+                    </div>
+                    <div class="row pt-md-0 pt-lg-3">
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Bahrain</h4>
+                            <p>22nd Floor, West Tower, Bahrain Financial Harbour , Manama, Kingdom of Bahrain</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Kuwait</h4>
+                            <p>Sahab Tower, Level 18, Salhia, P.O. Box 626 Dasman, 15457, Kuwait City, Kuwait</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>Muscat</h4>
+                            <p>Mashhor Limited All Wattayah 2nd, Tamimah Complex, Al Nahdah Road, Muscat 118, Oman</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 braches">
+                            <h4>India</h4>
+                            <p>UL Cyber Park Road Kozhikode - 673016, Kerala, INDIA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-mapsec">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d463985.2117239508!2d46.725025!3d24.696498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1705643646637!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
 
 
 
 
     <?php include('inc/footer.php'); ?>
 
-
+ 
 
     <!-- JQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

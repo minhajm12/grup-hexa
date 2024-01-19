@@ -3,7 +3,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="assets/img/logo/logo.svg" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -66,7 +66,7 @@
                                 <div class="tab-pane fade show active nav-item-main" id="pills-outlook" role="tabpanel"
                                     aria-labelledby="pills-outlook-tab">
 
-                                    <a href="#" class="inner-nav-items">
+                                    <a href="about.php" class="inner-nav-items">
                                         <img src="assets/img/icons/outlook-logo.png" alt="" class="img-fluid">
                                         <p class="inner-nav-title">Our Outlook &<br>Strategic Vision</p>
                                     </a>
@@ -194,7 +194,7 @@
         <div class="offcanvas offcanvas-start mobilemenu" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index">
                     <img src="assets/img/logo/logo.svg" alt="">
                 </a>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
@@ -340,4 +340,4 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> 

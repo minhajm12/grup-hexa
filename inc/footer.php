@@ -38,7 +38,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 footer-cols ps-md-5">
+                        <div class="col-12 col-md-6 col-lg-3 footer-cols ps-md-3 ps-lg-5">
                             <h4>Business</h4>
                             <ul>
                                 <li>

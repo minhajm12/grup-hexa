@@ -27,7 +27,7 @@
 
 <body>
     <!-- About Hero Section -->
-    <div id="about-hero">
+    <section id="about-hero" class="mainbanner-sec">
 
 
     <?php include('inc/header.php');?>
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -47,7 +47,7 @@
 
     <!-- aboutsection -->
 
-    <div id="abt-page-sec">
+    <section id="abt-page-sec">
         <div class="container">
             <div class="top-sec">
                 <div class="row">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -109,7 +109,7 @@
 
     <!-- CTA SECTION -->
 
-    <div class="cta-sec-main">
+    <section class="cta-sec-main">
         <div id="ctasection">
             <div class="container">
                 <div class="back-logo">
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -133,7 +133,7 @@
 
 
    <!-- Service Section -->
-   <div id="servicesection">
+   <section id="servicesection">
     <div class="container">
         <div class="top-sec">
             <p class="top-title">Services</p>
@@ -234,7 +234,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 
