@@ -48,7 +48,7 @@
     <section id="epcsection">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 left">
                     <div class="content-parasec">
                         <div>
                             <p class="top-title text-start">Hexa EPC</p>
@@ -60,9 +60,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 right">
                     <div class="img-div">
-                        <img src="" alt="">
+                        <img src="assets/img/services/inner/epc-1.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

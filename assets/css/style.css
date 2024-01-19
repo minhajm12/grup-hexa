@@ -2154,9 +2154,25 @@ path
 {
     padding: 10% 0;
 }
+#epcsection .left
+{
+    display: flex;
+    align-items: center;
+}
+#epcsection .right
+{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+#epcsection .right .img-div img
+{
+    border-radius: 20px;
+}
 .content-parasec
 {
     display: flex;
     flex-direction: column;
     gap:20px;
+    align-items: center;
 }
