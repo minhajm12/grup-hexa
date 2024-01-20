@@ -75,19 +75,19 @@
                                 <div class="tab-pane fade" id="pills-verticals" role="tabpanel"
                                     aria-labelledby="pills-verticals-tab">
                                     <div class="nav-item-main">
-                                        <a href="business-intelligence.php" class="inner-nav-items">
-                                            <img src="assets/img/icons/business-intelligence.png" alt=""
-                                                class="img-fluid">
-                                            <p class="inner-nav-title">Business Intelligence</p>
-                                        </a>
                                         <a href="epc.php" class="inner-nav-items">
                                             <img src="assets/img/icons/epc.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Engineering Procurement<br>& Construction - EPC
                                             </p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="chemical.php" class="inner-nav-items">
                                             <img src="assets/img/icons/chemical.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Chemical Manufacturing<br>& Distribution</p>
+                                        </a>
+                                        <a href="business-intelligence.php" class="inner-nav-items">
+                                            <img src="assets/img/icons/business-intelligence.png" alt=""
+                                                class="img-fluid">
+                                            <p class="inner-nav-title">Business Intelligence</p>
                                         </a>
                                         <a href="#" class="inner-nav-items">
                                             <img src="assets/img/icons/hr-solution.png" alt="" class="img-fluid">

@@ -9,13 +9,16 @@ $(document).ready(function(){
         dots:true,
         dotsEach: true,
         autoplay:true,
+        autoplayTimeout:2000,
         slideToScroll:1,
         responsive:{
             0:{
-                items:1
+                items:1,
+                autoplayTimeout:1000,
             },
             600:{
-                items:2
+                items:2,
+                autoplayTimeout:1500
             },
             1300:{
                 items:3

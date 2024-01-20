@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hexa-EPC</title>
+    <title>Business Intelligence</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/logo/favicon.png" type="image/x-icon">
@@ -25,8 +25,8 @@
 </head>
 
 <body>
-    <!-- epc banner Section -->
-    <section id="epc-banner" class="mainbanner-sec">
+    <!-- business banner Section -->
+    <section id="bi-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
@@ -44,26 +44,25 @@
 
 
 
-    <!-- epcsection -->
-    <section id="epcsection" class="innerpg-section">
+    <!-- business section -->
+    <section id="bussnss-section" class="innerpg-section">
         <div class="container">
             <div class="top-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
                         <div class="content-parasec">
                             <div>
-                                <p class="top-title text-start">business Intelligence</p>
-                                <h2 class="main-title">Engineering, Procurement & <span class="main-grade"><br class="d-block d-md-none">Constructions. LLC</span></h2>
+                                <p class="top-title text-start">Hexa BI</p>
+                                <h2 class="main-title">Business <span class="main-grade"><br class="d-block d-md-none">Intelligence</span></h2>
                             </div>
                             <div>
-                                <p class="main-para text-start">Since industries & infrastructure has a major impact on cities, regions and their citizens, in 2007, Grup Hexa invested in EPC to delivers quality, environment-friendly and socially beneficial performance in its long-term relationships with all its stakeholders in the fields of Oil and Gas, Power, Energy, Petrochemical, Marine & Ports, Iron & Steel, Airport & Aviation and Infrastructure Development.</p>
-                                <p class="main-para text-start">The EPC business have been partnering with many of the GCC’s largest oil producing companies, refineries and LPG industries for the past 15 years, clocking an average of $50 million year-on-year. Ranked among the top three in the sector, on-time delivery along with better quality helps the company to sustain stiff competition in the Middle East, by employing the GCC’s finest experts in the industry.</p>
+                                <p class="main-para text-start">GCC’s Leading Cloud ERP Software For Contracting, Trading And Manufacturing Companies, to simplify the Contracting or Trading or Manufacturing business with Tranquil ERP Software and manage entire business process without the paperwork, in one superior cloud solution. As Tranquil is cloud ERP software, you have access to your business data anywhere, any time. We have More than 1000+ companies worldwide trust Tranquil ERP.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/epc-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/business-intelligence-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -72,24 +71,27 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/epc-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/business-intelligence-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Specialized <span class="main-grade"><br class="d-block d-md-none">Areas in EPC</span></h2>
+                                <h2 class="main-title">Tranquil <span class="main-grade"><br class="d-block d-md-none">ERP Focuses</span></h2>
                             </div>
                             <div class="list-div">
                                 <ul class="p-0">
-                                    <li>Field Instrumentation Installation & Commissioning.</li>
-                                    <li>Control System Engineering & Panel Integration.</li>
-                                    <li>Electrical Engineering Services (LV, MV, HV)</li>
-                                    <li>O&G Upstream Services for Oilwell Drilling, Cementing & Stimulation</li>
-                                    <li>Robotic Applications & Industrial Automations.</li>
-                                    <li>Telecommunications, Low Current, BMS</li>
-                                    <li>F&G Systems</li>
-                                    <li>IIOT, Cyber Security Systems & Business Intelligence</li>
+                                    <li>Project Management</li>
+                                    <li>Manufacturing Management</li>
+                                    <li>Construction Management </li>
+                                    <li>General Trading</li>
+                                    <li>Inventory Management</li>
+                                    <li>Equipment Management</li>
+                                    <li>Employee Self Ser</li>
+                                    <li>Finance & Accounts</li>
+                                    <li>Budgeting & Scheduling</li>
+                                    <li>Tendering & Estimation</li>
+                                    <li>Distribution Management</li>
                                 </ul>
                             </div>
                         </div>
@@ -99,7 +101,7 @@
             <div class="weblink-sec">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
-                    <a href="https://reftco.com/">
+                    <a href="https://www.tranquilbs.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/tranquil.png" alt="" class="img-fluid">
                            <i class="fa-solid fa-arrow-right-long"></i>
