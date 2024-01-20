@@ -26,7 +26,7 @@
 
 <body>
     <!-- chem banner Section -->
-    <section id="bi-banner" class="mainbanner-sec">
+    <section id="chem-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="top-sec">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left">
+                    <div class="col-12 col-lg-6 left order-2 order-lg-1">
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa Chemical</p>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 right">
+                    <div class="col-12 col-lg-6 right order-1 order-lg-2">
                         <div class="img-div">
                             <img src="assets/img/services/inner/chem-1.jpg" alt="" class="img-fluid">
                         </div>

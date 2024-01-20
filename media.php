@@ -21,12 +21,11 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-
 </head>
 
 <body>
-    <!-- it banner Section -->
-    <section id="bi-banner" class="mainbanner-sec">
+    <!-- media banner Section -->
+    <section id="media-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
@@ -44,26 +43,29 @@
 
 
 
-    <!-- it section -->
-    <section id="itsection" class="innerpg-section">
+    <!-- media section -->
+    <section id="mediasection" class="innerpg-section">
         <div class="container">
             <div class="top-sec">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left">
+                    <div class="col-12 col-lg-6 left order-2 order-lg-1">
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa Media</p>
-                                <h2 class="main-title">Media  <span class="main-grade"><br class="d-block d-md-none">Production</span></h2>
+                                <h2 class="main-title">Media <span class="main-grade">Production</span></h2>
                             </div>
                             <div>
-                                <p class="main-para text-start">Hexa Business Transformation Services (Currently Biztras IT Solutions LLC) was founded with the core objective to provide public and private sectors across the globe with best-in-class IT services and Enterprise Business Solutions that will help clients to strengthen and transform their businesses. Hexa BTS understands that your business challenges and opportunities are unique. That’s why we’ve developed a portfolio of solutions that is tailored to meet the specific demands you face in your industry.</p>
-                                <p class="main-para text-start">Hexa BTS continues to develop & design innovative and cutting edge Enterprise Software Solutions, Business Transformation that target various industry verticals which includes: Oil & Gas, Manufacturing, EC&O, Healthcare, Media & Advertising, Education, Retail & Wholesale and encompassing consultancy to meet the dynamic needs of its customers.</p>
+                                <p class="main-para text-start">We shoot advertisement, we make corporate films, we make films, we are oneness. Oneness has a handpicked pool of talented artists, visualizer, strategists & writer, designers & developers and illustrators. </p>
+                            </div>
+                            <div>
+                                <h5 class="media-head">Media Production & Film Making</h5>
+                                <p class="main-para text-start">Oneness Media Mill engages in media production with the aim of making headline-grabbing programs, cinema and television commercials. We work on advertisements passionately and effectively, thanks to the eclectic mix of talented technicians and think-tanks who know well about the conscious and subliminal perceptions of advertisement and consumer dynamics.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 right">
+                    <div class="col-12 col-lg-6 right order-1 order-lg-2">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/chem-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/media-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -72,11 +74,21 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/chem-2.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/media-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
+                            <div>
+                                <h5 class="media-head">Video Production</h5>
+                                <p class="main-para text-start">Oneness Media Mill engages in media production with the aim of making headline-grabbing programs, cinema and television commercials. We work on advertisements passionately and effectively, thanks to the eclectic mix of talented technicians and think-tanks who know well about the conscious and subliminal perceptions of advertisement and consumer dynamics.</p>
+                            </div>
+                            <div>
+                                <h5 class="media-head">Logo Branding</h5>
+                                <p class="main-para text-start">Oneness Media Mill engages in media production with the aim of making headline-grabbing programs, cinema and television commercials. We work on advertisements passionately and effectively, thanks to the eclectic mix of talented technicians and think-tanks who know well about the conscious and subliminal perceptions of advertisement and consumer dynamics.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="content-parasec">
                             <div>
                                 <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-block d-md-none">Products</span></h2>
                             </div>
@@ -90,7 +102,7 @@
                                     <li>Power & Utilities</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -99,14 +111,14 @@
                 <div class="items">
                     <a href="https://biztras.com/">
                         <div class="btn">
-                            <img src="assets/img/services/inner/it-soution-1.jpg" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <img src="assets/img/services/inner/oneness.png" alt="" class="img-fluid">
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
                     <a href="https://biztras.com/">
                         <div class="btn">
-                            <img src="assets/img/services/inner/it-soution-2.jpg" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <img src="assets/img/services/inner/m2.png" alt="" class="img-fluid">
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
                 </div>
@@ -151,7 +163,7 @@
 
     <!-- Service Section -->
     <?php include('inc/service-inner-slider.php'); ?>
-    
+
 
 
 
@@ -190,8 +202,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
-    
+
+
     <script src="assets/js/service-slider.js"></script>
 
 </body>
