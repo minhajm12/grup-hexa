@@ -89,15 +89,15 @@
                                                 class="img-fluid">
                                             <p class="inner-nav-title">Business Intelligence</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="hr-solution.php" class="inner-nav-items">
                                             <img src="assets/img/icons/hr-solution.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">HR Solution</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="information-technology.php" class="inner-nav-items">
                                             <img src="assets/img/icons/it.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Information Technology</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="media.php" class="inner-nav-items">
                                             <img src="assets/img/icons/media.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Media Production</p>
                                         </a>

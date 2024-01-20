@@ -109,13 +109,13 @@
             <div class="weblink-sec">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
-                    <a href="https://biztras.com/">
+                    <a href="http://www.onenessmediamill.in/">
                         <div class="btn">
                             <img src="assets/img/services/inner/oneness.png" alt="" class="img-fluid">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
-                    <a href="https://biztras.com/">
+                    <a href="http://www.onenessmediamill.in/">
                         <div class="btn">
                             <img src="assets/img/services/inner/m2.png" alt="" class="img-fluid">
                             <i class="fa-solid fa-arrow-right-long"></i>

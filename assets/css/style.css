@@ -2160,12 +2160,44 @@ path
 }
 #bi-banner
 {
-    background: url(../img/banner/epc-banner-img.jpg) !important;
+    background: url(../img/banner/business-banner.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#chem-banner
+{
+    background: url(../img/banner/chemi-banner.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#hr-banner
+{
+    background: url(../img/banner/hr-banner.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#it-banner
+{
+    background: url(../img/banner/it-banner-img.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#media-banner
+{
+    background: url(../img/banner/media-banner.jpg) !important;
     background-position: top center;
     background-size: cover;
 }
 
-/* epc section */
+
+
+
+
+
+
+
+
+/* Inner Service section */
 .innerpg-section
 {
     padding: 10% 0;
