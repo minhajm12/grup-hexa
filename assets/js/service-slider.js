@@ -14,11 +14,11 @@ $(document).ready(function(){
         responsive:{
             0:{
                 items:1,
-                autoplayTimeout:1000,
+                autoplayTimeout:2500
             },
             600:{
                 items:2,
-                autoplayTimeout:1500
+                autoplayTimeout:3000
             },
             1300:{
                 items:3

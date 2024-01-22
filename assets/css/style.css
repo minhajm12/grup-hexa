@@ -2231,6 +2231,12 @@ path
     background-position: top center;
     background-size: cover;
 }
+#company-banner
+{
+    background: url(../img/banner/company-banner.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
 
 
 

@@ -143,19 +143,19 @@
                         <div class="companyitems">
                             <p class="nav-drop-items active">Who We Are</p>
                             <div class="nav-item-main">
-                                <a href="#" class="inner-nav-items">
+                                <a href="passion.php" class="inner-nav-items">
                                     <img src="assets/img/icons/passion.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Our Passion</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="team.php" class="inner-nav-items">
                                     <img src="assets/img/icons/team.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Our Team</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="approach.php" class="inner-nav-items">
                                     <img src="assets/img/icons/approach.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Our Approach</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="quality.php" class="inner-nav-items">
                                     <img src="assets/img/icons/quality.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Our Quality</p>
                                 </a>
