@@ -224,46 +224,46 @@
 
                         <ul class="innerdropdown-outlook innerdrop-item">
                             <li class="dropdown-item"> 
-                                <a href=""><span>></span>
+                                <a href="about.php"><span>></span>
                                     <p>Our Outlook & Strategic Vision</p>
                                 </a>
                             </li>
                         </ul>
                         <ul class="innerdropdown-verticals innerdrop-item">
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="business-intelligence.php">
                                     <span>></span>
                                     <p>Business Intelligence</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="epc.php">
                                     <span>></span>
                                     <p>Engineering Procurement<br>
                                         & Construction - EPC</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="chemical.php">
                                     <span>></span>
                                     <p>Chemical Manufacturing<br>
                                         & Distribution</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="hr-solution.php">
                                     <span>></span>
                                     <p>HR Solution</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="information-technology.php">
                                     <span>></span>
                                     <p>Information Technology</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="media.php">
                                     <span>></span>
                                     <p>Media Production</p>
                                 </a>
@@ -277,31 +277,31 @@
                         </ul>
                         <ul class="innerdropdown-social innerdrop-item">
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="social-responsibility.php">
                                     <span>></span>
                                     <p>CSR - Coorporrate Social<br>Responsibility</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="integrity.php">
                                     <span>></span>
                                     <p>Integrity</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="values.php">
                                     <span>></span>
                                     <p>Values</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="sustainability.php">
                                     <span>></span>
                                     <p>Sustainability</p>
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="">
+                                <a href="empowerment.php">
                                     <span>></span>
                                     <p>Empowerment</p>
                                 </a>
@@ -316,10 +316,10 @@
                             Company
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item innerdrop" href="#">Passion</a></li>
-                            <li><a class="dropdown-item innerdrop" href="#">Team</a></li>
-                            <li><a class="dropdown-item innerdrop" href="#">Approach</a></li>
-                            <li><a class="dropdown-item innerdrop" href="#">Quality</a></li>
+                            <li><a class="dropdown-item innerdrop" href="passion.php">Passion</a></li>
+                            <li><a class="dropdown-item innerdrop" href="team.php">Team</a></li>
+                            <li><a class="dropdown-item innerdrop" href="approach.php">Approach</a></li>
+                            <li><a class="dropdown-item innerdrop" href="quality.php">Quality</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
