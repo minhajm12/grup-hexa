@@ -116,19 +116,19 @@
                                             <img src="assets/img/icons/csr.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">CSR - Coorporrate Social<br>Responsibility</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="integrity.php" class="inner-nav-items">
                                             <img src="assets/img/icons/integrity.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Integrity</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="values.php" class="inner-nav-items">
                                             <img src="assets/img/icons/value.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Values</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="sustainability.php" class="inner-nav-items">
                                             <img src="assets/img/icons/sustainability.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Sustainability</p>
                                         </a>
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="empowerment.php" class="inner-nav-items">
                                             <img src="assets/img/icons/empowerment.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">Empowerment</p>
                                         </a>
@@ -223,7 +223,7 @@
 
 
                         <ul class="innerdropdown-outlook innerdrop-item">
-                            <li class="dropdown-item">
+                            <li class="dropdown-item"> 
                                 <a href=""><span>></span>
                                     <p>Our Outlook & Strategic Vision</p>
                                 </a>

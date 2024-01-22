@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/media-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/social-responsibility.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>

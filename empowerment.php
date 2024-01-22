@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Technology</title>
+    <title>Empowerment</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/logo/favicon.png" type="image/x-icon">
@@ -21,12 +21,11 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-
 </head>
 
 <body>
-    <!-- it banner Section -->
-    <section id="it-banner" class="mainbanner-sec">
+    <!-- media banner Section -->
+    <section id="empowerment-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
@@ -34,7 +33,7 @@
         <div class="inner-pg-bnner">
             <div class="container">
                 <div class="inner-main-title">
-                    <h2>IT Solutions</h2>
+                    <h2>Empowerment </h2>
                 </div>
             </div>
         </div>
@@ -44,73 +43,65 @@
 
 
 
-    <!-- it section -->
-    <section id="itsection" class="innerpg-section">
+    <!-- media section -->
+    <section id="empowerment-section" class="innerpg-section">
         <div class="container">
             <div class="top-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 left order-2 order-lg-1">
                         <div class="content-parasec">
                             <div>
-                                <p class="top-title text-start">Hexa IT Solution</p>
-                                <h2 class="main-title">Information  <span class="main-grade"><br class="d-block d-md-none">Technology</span></h2>
+                                <p class="top-title text-start">Social Responsibility</p>
+                                <h2 class="main-title">Empowerment: <span class="main-grade">Prognostic of Moral Progress!</span></h2>
                             </div>
                             <div>
-                                <p class="main-para text-start">Hexa Business Transformation Services (Currently Biztras IT Solutions LLC) was founded with the core objective to provide public and private sectors across the globe with best-in-class IT services and Enterprise Business Solutions that will help clients to strengthen and transform their businesses. Hexa BTS understands that your business challenges and opportunities are unique. That’s why we’ve developed a portfolio of solutions that is tailored to meet the specific demands you face in your industry.</p>
-                                <p class="main-para text-start">Hexa BTS continues to develop & design innovative and cutting edge Enterprise Software Solutions, Business Transformation that target various industry verticals which includes: Oil & Gas, Manufacturing, EC&O, Healthcare, Media & Advertising, Education, Retail & Wholesale and encompassing consultancy to meet the dynamic needs of its customers.</p>
+                                <p class="main-para text-start">At Gruphexa, we believe in delivering the best quality goods and services to our committed customers. We are also devoted to the notion of women empowerment that is most likely to enrich an equal platform for all employees at our firm. What our company seeks to build is a co-dependent, interdisciplinary forte of business ideas, ventures and novel strategies that emphasise on employee empowerment as much as it focuses on customer empowerment.</p>
+                                <p class="main-para text-start">Environmental commitments that we as a society have towards our ecosystem are met by our company’s methodology of business process. In doing so, we also ensure environmental empowerment. Everybody who associates with us shall encounter only success. For this goal to be sufficed, our team will forever thrive to provide a dynamic playground to showcase sheer talent for everyone who wishes to.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/it-soution-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/empowerment.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom-sec">
+            <div class="bottom-sec pb-0">
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/it-soution-2.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/empowerment-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-block d-md-none">Products</span></h2>
-                            </div>
-                            <div class="list-div">
-                                <ul class="p-0">
-                                    <li>Construction Industry</li>
-                                    <li>Infrastructure Services</li>
-                                    <li>Manufacture Industry</li>
-                                    <li>Oil & Gas Industry</li>
-                                    <li>Petrochemical Industry</li>
-                                    <li>Power & Utilities</li>
-                                </ul>
+                                <!-- <h5 class="media-head">Video Production</h5> -->
+                                <p class="main-para text-start">Gruphexa cherishes at the crux of its value-based infrastructure, an honest, trustworthy and well-researched methodology of implementation. At a time when climate, social and human rights and the environment as a whole is taking a toll due to the impending doom brought about by human development, it is indispensable to address the elephant in the room and channel businesses such that we are able to maximize the value and profit of shareholders.</p>
+                                <p class="main-para text-start">As well as dedicate much effort to the welfare and wellbeing of the society. We aspire to establish an ethical balance between the dual mandates of exerting profitability and benefiting the environment. We execute this motto at both the levels of commission and omission, by following a green protocol as well as involving in philanthropic ventures.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="weblink-sec">
+            <!-- <div class="weblink-sec">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
-                    <a href="https://biztras.com/">
+                    <a href="http://www.onenessmediamill.in/">
                         <div class="btn">
-                            <img src="assets/img/services/inner/biztras.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <img src="assets/img/services/inner/oneness.png" alt="" class="img-fluid">
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
-                    <a href="https://biztras.com/">
+                    <a href="http://www.onenessmediamill.in/">
                         <div class="btn">
-                            <img src="assets/img/services/inner/hexa-bt.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <img src="assets/img/services/inner/m2.png" alt="" class="img-fluid">
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -151,7 +142,7 @@
 
     <!-- Service Section -->
     <?php include('inc/service-inner-slider.php'); ?>
-    
+
 
 
 
@@ -190,8 +181,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
-    
+
+
     <script src="assets/js/service-slider.js"></script>
 
 </body>

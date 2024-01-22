@@ -233,6 +233,10 @@ transition: .3s ease;
     gap:10px;
     text-decoration: none;
 }
+.inner-nav-items:hover img
+{
+    transform: translateY(-10px);
+}
 /* .industryitems .tab-pane
 {
     margin-top:40px;
@@ -240,6 +244,7 @@ transition: .3s ease;
 .inner-nav-items img
 {
     /* width: 40%; */
+    transition: .3s ease;
 }
 .inner-nav-items .inner-nav-title
 {
@@ -619,7 +624,7 @@ path
 }
 #ctasection .cta-main .main-btn:hover
 {
-    background: #000;
+    background: var(--grade-1);
     color: #fff;
 }
 
@@ -1010,7 +1015,11 @@ path
 {
     .canvas-active
     {
-        height: 50vh !important;
+        height: 55vh !important;
+    }
+    .nav-items-tabs
+    {
+        margin-top:30px;
     }
     #ctasection
     {
@@ -1035,6 +1044,10 @@ path
     #social-section .main-para
     {
         font-size: 16px;
+    }
+    .inner-main-title h2
+    {
+        font-size: 36px !important;
     }
 }
 
@@ -2206,6 +2219,19 @@ path
     background-position: top center;
     background-size: cover;
 }
+#sustainability-banner
+{
+    background: url(../img/banner/sustainability.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#empowerment-banner
+{
+    background: url(../img/banner/empowerment.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+
 
 
 
