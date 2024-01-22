@@ -2188,6 +2188,24 @@ path
     background-position: top center;
     background-size: cover;
 }
+#social-banner
+{
+    background: url(../img/banner/social-banner-img.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#integrity-banner
+{
+    background: url(../img/banner/integrity.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+#values-banner
+{
+    background: url(../img/banner/value.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
 
 
 

@@ -9,7 +9,7 @@ $(document).ready(function(){
         dots:true,
         dotsEach: true,
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:4000,
         slideToScroll:1,
         responsive:{
             0:{

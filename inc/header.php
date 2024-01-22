@@ -112,7 +112,7 @@
                                     aria-labelledby="pills-social-tab">
 
                                     <div class="nav-item-main">
-                                        <a href="#" class="inner-nav-items">
+                                        <a href="social-responsibility.php" class="inner-nav-items">
                                             <img src="assets/img/icons/csr.png" alt="" class="img-fluid">
                                             <p class="inner-nav-title">CSR - Coorporrate Social<br>Responsibility</p>
                                         </a>

@@ -16,7 +16,7 @@
                         <p class="service-para">Since its infrastructure has a major impact on cities, regions and their
                             citizens, hexa E.P.C. aims for quality, technically sound, economically viable,
                             environment-friendly and socially beneficial performance</p>
-                        <a href="" class="service-btn">
+                        <a href="epc.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -91,6 +91,21 @@
                     <div class="service-desc">
                         <h2 class="service-head">Media Service</h2>
                         <p class="service-para">We shoot advertisement, we make corporate films, we make films, we are oneness. Oneness has a handpicked pool of talented artists, visualizer, strategists & writer, designers & developers and illustrators. </p>
+                        <a href="" class="service-btn">
+                            <p>Explore</p>
+                            <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img-div">
+                        <img src="assets/img/services/social-responsility.jpg" alt="" class="img-fluid">
+                        <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
+                        <!-- <img src="assets/img/logo/hexa-icon.svg" alt="" class="top-hexa"> -->
+                    </div>
+                    <div class="service-desc">
+                        <h2 class="service-head">Social Responsibility</h2>
+                        <p class="service-para">The corporate world currently brings to the limelight multiple environmental, economic, and social impacts that are brought about by business operations. </p>
                         <a href="" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
