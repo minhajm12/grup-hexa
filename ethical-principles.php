@@ -59,29 +59,29 @@
                             </div>
                             <div>
                                 <h5 class="media-head">Ethics and Compliance</h5>
-                                <p class="main-para text-start">The Code of Ethics and Conduct lays down all the principles of business ethics that apply to all circumstances, in all countries where the Group operates and to all companies and their employees. It is used in tandem with the anticorruption Code of Conduct. The Group’s key managers have to comply with the principles in the two codes and ensure that they are applied within the scope of their responsibility.</p>
+                                <p class="main-para text-start">the Code of Ethics and Conduct lays down all the principles of business ethics that apply to all circumstances, in all countries where the Group operates and to all companies and their employees. It is used in tandem with the anticorruption Code of Conduct. The Group’s key managers have to comply with the principles in the two codes and ensure that they are applied within the scope of their responsibility.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/safety-2.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/ethical-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom-sec">
+            <div class="bottom-sec pb-0">
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
                         <div class="img-div">
-                            <img src="assets/img/services/inner/safety-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/services/inner/ethical-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
                                 <h5 class="media-head">The Integrity Whistleblowing Platform</h5>
-                                <p class="main-para text-start">Available in five languages on the Group intranet and website, the Integrity online whistleblowing platform enables employees and stakeholders to report any inappropriate behavior in the areas of human rights, business ethics, environmental risk prevention and health and safety. This secure system guarantees full traceability and anonymity.</p>
+                                <p class="main-para text-start">available in five languages on the Group intranet and website, the Integrity online whistleblowing platform enables employees and stakeholders to report any inappropriate behavior in the areas of human rights, business ethics, environmental risk prevention and health and safety. This secure system guarantees full traceability and anonymity.</p>
                             </div>
                         </div>
                     </div>

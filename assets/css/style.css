@@ -398,7 +398,7 @@ path
 }
 .top-title
 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin: 0;;
 }
@@ -414,6 +414,9 @@ path
     text-align: center;
     font-size: 18px;
     /* line-height: 160%; */
+}
+.main-para:first-letter {
+    text-transform: uppercase;
 }
 .main-btn
 {
@@ -1793,7 +1796,7 @@ path
 .inner-main-title h2
 {
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -1886,6 +1889,22 @@ path
 {
     box-shadow: 0 10px 30px #00000010;
 }
+.about-iconsection .icon-main .icon-items .main-grade
+{
+    -webkit-text-fill-color: #000;
+    transition: .3s ease;
+    /* -webkit-transition: .3s ease; */
+}
+.about-iconsection .icon-main .icon-items:hover .main-grade{
+    -webkit-text-fill-color: #00000000;
+    transition: .3s ease;
+    font-weight: 800;
+    /* -webkit-transition: .3s ease; */
+}
+.about-iconsection .icon-main .icon-items:hover img
+{
+    transform: translateY(-10px);
+}
 .about-iconsection .icon-main .icon-items h4
 {
     font-size: 22px;
@@ -1894,7 +1913,8 @@ path
 .about-iconsection .icon-main .icon-items img
 {
     /* max-width: 40% !important; */
-    padding:0 70px; 
+    padding:0 70px;
+    transition: .3s ease;
 }
 
 
@@ -2595,6 +2615,3 @@ path
         font-size: 16px;
     }
 }
-
-
-

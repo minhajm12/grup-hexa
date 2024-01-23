@@ -71,16 +71,16 @@
                             <h4>Community</h4>
                             <ul>
                                 <li>
-                                    <a href="">Environmental Ambition</a>
+                                    <a href="environmental-ambition.php">Environmental Ambition</a>
                                 </li>
                                 <li>
-                                    <a href="">All Inclusive Growth</a>
+                                    <a href="all-inclusive-growth.php">All Inclusive Growth</a>
                                 </li>
                                 <li>
-                                    <a href="">Safely</a>
+                                    <a href="guaranteeing-safety.php">Safely</a>
                                 </li>
                                 <li>
-                                    <a href="">Ethical Principal</a>
+                                    <a href="ethical-principles.php">Ethical Principal</a>
                                 </li>
                             </ul>
                         </div>
@@ -89,7 +89,7 @@
             </div>
             <div class="container">
                 <div class="copyright">
-                    <p>© 2024 Gruphexa All Rights Reserved. Designed by <a href="www.mentegoz.com"
+                    <p>© 2024 Gruphexa All Rights Reserved. Designed by <a href="https://mentegoz.com/"
                             class="main-grade">Mentegoz
                             Technologies</a></p>
                     <div>

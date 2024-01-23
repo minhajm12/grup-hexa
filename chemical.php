@@ -97,7 +97,7 @@
             <div class="weblink-sec">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
-                    <a href="https://www.tranquilbs.com/">
+                    <a href="http://www.hexa-chem.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/hexa-chem.png" alt="" class="img-fluid">
                            <i class="fa-solid fa-arrow-right-long"></i>

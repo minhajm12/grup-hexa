@@ -166,21 +166,21 @@
                         <div class="commitmentitems">
                             <p class="nav-drop-items active">Our Commitment</p>
                             <div class="nav-item-main">
-                                <a href="#" class="inner-nav-items">
+                                <a href="environmental-ambition.php" class="inner-nav-items">
                                     <img src="assets/img/icons/environmental.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Environmental<br>Ambition</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="all-inclusive-growth.php" class="inner-nav-items">
                                     <img src="assets/img/icons/growth.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">All Inclusive<br>Growth</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="guaranteeing-safety.php" class="inner-nav-items">
                                     <img src="assets/img/icons/safety.png" alt="" class="img-fluid">
                                     <p class="inner-nav-title">Safely</p>
                                 </a>
-                                <a href="#" class="inner-nav-items">
+                                <a href="ethical-principles.php" class="inner-nav-items">
                                     <img src="assets/img/icons/ethical.png" alt="" class="img-fluid">
-                                    <p class="inner-nav-title">Ethical Principals</p>
+                                    <p class="inner-nav-title">Ethical Principles</p>
                                 </a>
                             </div>
                         </div>
@@ -328,10 +328,10 @@
                             Commitment
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item innerdrop" href="#">Environmental Ambition</a></li>
+                            <li><a class="dropdown-item innerdrop" href="environmental-ambition.php">Environmental Ambition</a></li>
                             <li><a class="dropdown-item innerdrop" href="#">All Inclusive Growth</a></li>
                             <li><a class="dropdown-item innerdrop" href="#">Safety</a></li>
-                            <li><a class="dropdown-item innerdrop" href="#">Ethical Principals</a></li>
+                            <li><a class="dropdown-item innerdrop" href="#">Ethical Principles</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

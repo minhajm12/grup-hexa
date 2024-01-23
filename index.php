@@ -40,7 +40,7 @@
                         daily life mobility for all. As an investor, builder and operator of industries and
                         infrastructure, gruphexa plays a key role in the transformation of cities, regions and
                         community.</p>
-                    <a href="" class="banner-btn">Enquire Now</a>
+                    <a href="contact.php" class="banner-btn">Enquire Now</a>
 
                     <div class="banner-social">
                         <a href="">
@@ -99,7 +99,7 @@
                     Concessions, development will be principally focused on EPC in the infrastructural development in
                     both industrial sector and commercial sector as the Group continues to diversify its concession
                     portfolio and extend its maturity.</p>
-                <a href="" class="main-btn">Know More</a>
+                <a href="about.php" class="main-btn">Know More</a>
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
                         <p class="service-para">Since its infrastructure has a major impact on cities, regions and their
                             citizens, hexa E.P.C. aims for quality, technically sound, economically viable,
                             environment-friendly and socially beneficial performance</p>
-                        <a href="" class="service-btn">
+                        <a href="epc.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -139,7 +139,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Business Intelligence</h2>
                         <p class="service-para">GCC’s Leading Cloud ERP Software For Contracting, Trading And Manufacturing Companies, to simplify the Contracting or Trading or Manufacturing business with Tranquil ERP Software and manage entire business process </p>
-                        <a href="" class="service-btn">
+                        <a href="business-intelligence.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -154,7 +154,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Chemicals Manufacturing & Distributions</h2>
                         <p class="service-para">A new-generation Oil Field Chemical manufacturer & supplier offering a complete portfolio of chemicals right from to Drilling, Completion & Production. Our efforts are continuous on enhancing the quality of diversified substances to make the process more effective</p>
-                        <a href="" class="service-btn">
+                        <a href="chemical.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -169,7 +169,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">IT Enable Service</h2>
                         <p class="service-para">Hexa Business Transformation Services (Currently Biztras IT Solutions LLC) was founded with the core objective to provide public and private sectors across the globe with best-in-class IT services and Enterprise Business Solutions.</p>
-                        <a href="" class="service-btn">
+                        <a href="information-technology.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -184,7 +184,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">HR Solution</h2>
                         <p class="service-para">Axxon is innovative & powerful workforce solutions. Headquartered in the capital city of Abu Dhabi, Axxon HR Solutions provides exceptional workforce solutions tailored to meet the needs of businesses</p>
-                        <a href="" class="service-btn">
+                        <a href="hr-solution.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -199,7 +199,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Media Service</h2>
                         <p class="service-para">We shoot advertisement, we make corporate films, we make films, we are oneness. Oneness has a handpicked pool of talented artists, visualizer, strategists & writer, designers & developers and illustrators.  </p>
-                        <a href="" class="service-btn">
+                        <a href="media.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -251,7 +251,7 @@
                         brought about by business operations. National and international organizations have introduced
                         stringent policies at country and global levels to ensure that the environment is kept
                         undisturbed while business processes unfold.</p>
-                    <a href="" class="main-btn">Know More</a>
+                    <a href="social-responsibility.php" class="main-btn">Know More</a>
                 </div>
                 <div class="col-12 col-lg-6 right order-1 order-md-2">
                     <div class="img-div">
