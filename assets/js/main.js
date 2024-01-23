@@ -2,7 +2,7 @@
 
 let dropnav_open = document.querySelectorAll('.offcnvs-nav');
 dropnav_open.forEach(function (dropnav_opens) {
-    dropnav_opens.addEventListener('click', function () {
+    dropnav_opens.addEventListener('mouseover', function () {
         document.querySelector(".nav-canvas-items").classList.add('canvas-active');
       document.querySelector(".canvas-main").classList.add('cnvsmain-active');
       document.querySelector(".canvas-main").classList.add('canvas-main-fixed');
@@ -13,7 +13,7 @@ dropnav_open.forEach(function (dropnav_opens) {
 // Close Menu
 
 let dropnav_close = document.querySelector('.canvas-main')
-dropnav_close.addEventListener('click', function () {
+dropnav_close.addEventListener('mouseover', function () {
       document.querySelector(".nav-canvas-items").classList.remove('canvas-active');
       document.querySelector(".canvas-main").classList.remove('cnvsmain-active');
       document.querySelectorAll(".nav-items-tabs").classList.add('nav-items-tabs-dnone');
@@ -76,7 +76,7 @@ dropnav_close.addEventListener('click', function () {
 // NAVLINK tabs
 
 document.querySelectorAll('.offcnvs-nav').forEach(function(link) {
-    link.addEventListener('click', function () {
+    link.addEventListener('mouseover', function () {
         document.querySelectorAll('.nav-items-tabs').forEach(function(section) {
             section.classList.add('dnone');
         });

@@ -407,7 +407,7 @@ path
     font-size: 40px;
     font-family: 'Metropolis';
     font-weight: 700;
-    margin: 0;;
+    margin: 0;
 }
 .main-para
 {
@@ -2304,6 +2304,8 @@ path
     background-position: top center;
     background-size: cover;
 }
+
+
 #company-banner
 {
     background: url(../img/banner/company-banner.jpg) !important;
@@ -2311,6 +2313,18 @@ path
     background-size: cover;
 }
 
+
+#commitment-banner
+{
+    background: url(../img/banner/commitment-banner.jpg) !important;
+    background-position: top center;
+    background-size: cover;
+}
+
+/* #environmental-ambition-section .main-title
+{
+    font-size: 32px;
+} */
 
 
 

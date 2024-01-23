@@ -330,7 +330,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item innerdrop" href="#">Environmental Ambition</a></li>
                             <li><a class="dropdown-item innerdrop" href="#">All Inclusive Growth</a></li>
-                            <li><a class="dropdown-item innerdrop" href="#">Safely</a></li>
+                            <li><a class="dropdown-item innerdrop" href="#">Safety</a></li>
                             <li><a class="dropdown-item innerdrop" href="#">Ethical Principals</a></li>
                         </ul>
                     </li>
