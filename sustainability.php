@@ -55,8 +55,7 @@
                                 <h2 class="main-title">Sustainability: <span class="main-grade">For a better operational impact on nature!</span></h2>
                             </div>
                             <div>
-                                <p class="main-para text-start">We pay due attention to the betterment of business with the amelioration of human condition in the work environment via which progress is easily attainable. With additional regard to women empowerment and environmental improvement, we at hexa aspire to become the good augury to everyone’s success.</p>
-                                <p class="main-para text-start">Customers are paid dedicated attention by our executives and employees and they shall be able to spend what they love. We believe in leaving a unique signature in the business province; not only as a dependable business giant but also as a conglomerate of better human beings serving better purposes. With us, you can build a value-added business generation.</p>
+                                <p class="main-para text-start">The company is molded on a consistently dynamic environment. Along the long processes of business integration and maximization, we make it a point to not look through the firm’s operational impact on nature. Reports on these impacts will be timely drafted and updated to amend and redraft our methodologies according to the benefits of the environment. The organization’s operations and actions shall protect, mend, and preserve rather than harm or destroy the ecosystem.</p>
                             </div>
                         </div>
                     </div>

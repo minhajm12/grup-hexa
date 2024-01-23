@@ -102,6 +102,29 @@
 
 
 
+    <div class="about-iconsection">
+        <div class="container">
+            <div class="icon-main">
+                <a href="passion.php" class="icon-items">
+                    <img src="assets/img/icons/passion-black.png" alt="" class="img-fluid">
+                    <h4 class="main-titile">Our Passion</h4>
+                </a>
+                <a href="team.php" class="icon-items">
+                    <img src="assets/img/icons/team-black.png" alt="" class="img-fluid">
+                    <h4 class="main-titile">Our Team</h4>
+                </a>
+                <a href="approach.php" class="icon-items">
+                    <img src="assets/img/icons/approach-black.png" alt="" class="img-fluid">
+                    <h4 class="main-titile">Our Approach</h4>
+                </a>
+                <a href="quality.php" class="icon-items">
+                    <img src="assets/img/icons/quality-black.png" alt="" class="img-fluid">
+                    <h4 class="main-titile">Our Quality</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
 
 
 

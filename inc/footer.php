@@ -28,13 +28,13 @@
                                     <a href="">Careers</a>
                                 </li>
                                 <li>
-                                    <a href="">Equal Opportunity</a>
+                                    <a href="values.php">Equal Opportunity</a>
                                 </li>
                                 <li>
-                                    <a href="">Privacy Policy</a>
+                                    <a href="values.php">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="">Legal Disclaimer</a>
+                                    <a href="values.php">Legal Disclaimer</a>
                                 </li>
                             </ul>
                         </div>
@@ -42,16 +42,28 @@
                             <h4>Business</h4>
                             <ul>
                                 <li>
-                                    <a href="">Outlook & Strategic Vision</a>
+                                    <a href="about.php">Outlook & Strategic Vision</a>
                                 </li>
                                 <li>
-                                    <a href="">Engineering Procurement & Construction</a>
+                                    <a href="epc.php">Engineering Procurement & Construction</a>
                                 </li>
                                 <li>
-                                    <a href="">Business Engineering</a>
+                                    <a href="chemical.php">Chemical Engineering</a>
                                 </li>
                                 <li>
-                                    <a href="">Chemical Engineering</a>
+                                    <a href="business-intelligence.php">Business Intelligence</a>
+                                </li>
+                                <li>
+                                    <a href="information-technology.php">Information Technology</a>
+                                </li>
+                                <li>
+                                    <a href="hr-solution.php">HR Solution</a>
+                                </li>
+                                <li>
+                                    <a href="media.php">Media Service</a>
+                                </li>
+                                <li>
+                                    <a href="social-responsibility.php">Social Responsibility</a>
                                 </li>
                             </ul>
                         </div>
@@ -59,16 +71,16 @@
                             <h4>Community</h4>
                             <ul>
                                 <li>
-                                    <a href="">Developing a Safety Culture</a>
-                                </li>
-                                <li>
-                                    <a href="">Ethics & Compliance</a>
-                                </li>
-                                <li>
-                                    <a href="">Areas of Work</a>
-                                </li>
-                                <li>
                                     <a href="">Environmental Ambition</a>
+                                </li>
+                                <li>
+                                    <a href="">All Inclusive Growth</a>
+                                </li>
+                                <li>
+                                    <a href="">Safely</a>
+                                </li>
+                                <li>
+                                    <a href="">Ethical Principal</a>
                                 </li>
                             </ul>
                         </div>

@@ -284,7 +284,7 @@
                         <h3 class="main-title">Hexa <span class="main-grade">Newsroom</span></h3>
                     </div>
                     <div class="col-12 col-md-6 right ">
-                        <a href="" class="main-btn d-none d-md-block">More Blogs</a>
+                        <a href="" class="main-btn mt-2 mt-md-0">More Blogs</a>
                     </div>
                 </div>
             </div>
