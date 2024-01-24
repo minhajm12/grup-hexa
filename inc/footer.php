@@ -1,4 +1,3 @@
-<!-- Footer Section -->
 <div id="footersection">
         <div class="container-fluid">
             <div class="footer-main">
@@ -25,7 +24,7 @@
                                     <a href="">Newsroom</a>
                                 </li>
                                 <li>
-                                    <a href="">Careers</a>
+                                    <a href="career.php">Careers</a>
                                 </li>
                                 <li>
                                     <a href="values.php">Equal Opportunity</a>
@@ -135,4 +134,6 @@
 
 
 
+
+    <!-- SMOOTH SCROLL CDN -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>

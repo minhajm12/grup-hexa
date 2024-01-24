@@ -53,7 +53,7 @@
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa Chemical</p>
-                                <h2 class="main-title">Oil & Gas Chemicals  <span class="main-grade"><br class="d-block d-md-none">Manufacturing & Distributions</span></h2>
+                                <h2 class="main-title">Oil & Gas Chemicals <span class="main-grade"><br class="d-block d-md-none">Manufacturing & Distributions</span></h2>
                             </div>
                             <div>
                                 <p class="main-para text-start">A new-generation Oil Field Chemical manufacturer & supplier offering a complete portfolio of chemicals right from to Drilling, Completion & Production.</p>
@@ -78,7 +78,7 @@
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-none d-md-none">Products</span></h2>
+                                <h2 class="main-title">Specialized <span class="main-grade"><br class="d-none d-md-none">Products</span></h2>
                             </div>
                             <div class="list-div">
                                 <ul class="p-0">
@@ -100,7 +100,7 @@
                     <a href="http://www.hexa-chem.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/hexa-chem.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                             <!-- <img src="assets/img/icons/web-link-arrow.svg" alt="" class="svg img-fluid"> -->
                         </div>
                     </a>
@@ -126,23 +126,8 @@
 
 
     <!-- CTA SECTION -->
-
-    <section class="cta-sec-main">
-        <div id="ctasection">
-            <div class="container">
-                <div class="back-logo">
-                    <img src="assets/img/logo/cta-logo.png" alt="">
-                </div>
-                <div class="cta-main">
-                    <h3 class="main-title">Connect with <span class="main-grade">Grup Hexa</span></h3>
-                    <p class="main-para">Gruphexa transforms communities, designing, building, and operating infrastructure
-                        to enhance daily life and mobility. As investors and operators, we play a vital role in shaping
-                        cities and regions.</p>
-                    <a href="" class="main-btn">Contact Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include('inc/cta-section.php'); ?>
+    <!-- END CTA SECTION -->
 
 
 
@@ -152,7 +137,6 @@
 
     <!-- Service Section -->
     <?php include('inc/service-inner-slider.php'); ?>
-    
 
 
 
@@ -161,8 +145,10 @@
 
 
 
+
+    <!-- FOOTER SECTION  -->
     <?php include('inc/footer.php'); ?>
-
+    <!-- FOOTER SECTION END -->
 
 
 
@@ -191,8 +177,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
-    
+
+
     <script src="assets/js/service-slider.js"></script>
 
 </body>

@@ -102,14 +102,14 @@
                     <a href="https://reftco.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/refco.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                             <!-- <img src="assets/img/icons/web-link-arrow.svg" alt="" class="svg img-fluid"> -->
                         </div>
                     </a>
                     <a href="https://www.mashhorme.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/mashhor.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                             <!-- <img src="assets/img/icons/web-link-arrow.svg" alt="" class="svg img-fluid"> -->
                         </div>
                     </a>
@@ -129,23 +129,8 @@
 
 
     <!-- CTA SECTION -->
-
-    <section class="cta-sec-main">
-        <div id="ctasection">
-            <div class="container">
-                <div class="back-logo">
-                    <img src="assets/img/logo/cta-logo.png" alt="">
-                </div>
-                <div class="cta-main">
-                    <h3 class="main-title">Connect with <span class="main-grade">Grup Hexa</span></h3>
-                    <p class="main-para">Gruphexa transforms communities, designing, building, and operating infrastructure
-                        to enhance daily life and mobility. As investors and operators, we play a vital role in shaping
-                        cities and regions.</p>
-                    <a href="" class="main-btn">Contact Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include('inc/cta-section.php'); ?>
+    <!-- END CTA SECTION -->
 
 
 
@@ -155,7 +140,6 @@
 
     <!-- Service Section -->
     <?php include('inc/service-inner-slider.php'); ?>
-    
 
 
 
@@ -164,8 +148,10 @@
 
 
 
+
+    <!-- FOOTER SECTION  -->
     <?php include('inc/footer.php'); ?>
-
+    <!-- FOOTER SECTION END -->
 
 
 
@@ -180,7 +166,7 @@
     <!-- Bootstrap CDN SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
-    
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script> -->
 
     <!-- owl carousel CSN -->
@@ -195,8 +181,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
-    
+
+
     <script src="assets/js/service-slider.js"></script>
 
 </body>

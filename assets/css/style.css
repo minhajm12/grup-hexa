@@ -1,14 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* metropolis-latin-100-normal */
 @font-face {
-    font-family:'Metropolis';
-    src: url('assets/fonts/Metropolis-Regular.otf') ;
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-100-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-100-normal.woff) format('woff');
 }
 
+/* metropolis-latin-200-normal */
 @font-face {
-    font-family: 'ITCAvantGarde';
-    src: url('assets/fonts/ITCAvantGardeStd-Demi.otf') ;
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-200-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-200-normal.woff) format('woff');
 }
+
+/* metropolis-latin-300-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-300-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-300-normal.woff) format('woff');
+}
+
+/* metropolis-latin-400-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-400-normal.woff) format('woff');
+}
+
+/* metropolis-latin-500-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-500-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-500-normal.woff) format('woff');
+}
+
+/* metropolis-latin-600-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-600-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-600-normal.woff) format('woff');
+}
+
+/* metropolis-latin-700-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-700-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-700-normal.woff) format('woff');
+}
+
+/* metropolis-latin-800-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-800-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-800-normal.woff) format('woff');
+}
+
+/* metropolis-latin-900-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-900-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-900-normal.woff) format('woff');
+}
+
+/* @font-face {
+    font-family:'Metropolis';
+    src: url('assets/fonts/Metropolis-Regular.otf') ;
+} */
 
 body
 {
@@ -26,7 +102,7 @@ body
 {
     --grade-1:#70C17E;
     --grade-2:#3B56A5;
-    --main-font:'Metropolis';
+    /* --main-font:'Metropolis', sans-serif; */
     --scndry-font:'poppins';
 }
 
@@ -36,7 +112,7 @@ p,a
 }
 h1,h2,h3,h4,h5,h6
 {
-    font-family: 'Metropolis';
+    font-family:'Metropolis', sans-serif;
 }
 
 
@@ -319,7 +395,7 @@ transition: .3s ease;
 #herobanner-section .banner-title
 {
     font-size: 72px;
-    font-family: 'Metropolis';
+    font-family:'Metropolis', sans-serif;
     font-weight: 700;
     color: #fff;
 }
@@ -413,7 +489,7 @@ path
 .main-title
 {
     font-size: 40px;
-    font-family: 'Metropolis';
+    font-family:'Metropolis', sans-serif;
     font-weight: 700;
     margin: 0;
 }
@@ -743,9 +819,9 @@ path
 .blog-main .blog-desc .main-grade
 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     width: fit-content;
-    font-family: 'Metropolis';
+    font-family:'Metropolis', sans-serif;
 }
 .blog-desc .top-blog
 {
@@ -778,7 +854,7 @@ path
 {
     font-weight: 700;
     font-size: 20px;
-    font-family: 'Metropolis';
+    font-family:'Metropolis', sans-serif;
     line-height: 22px;
     margin: 0;
 }
@@ -1469,6 +1545,10 @@ path
         right:-15%;
         bottom: -40%;
     }
+    #servicesection .services .img-div:hover .top-hexa
+    {
+        scale:.9;
+    }
 
 
 
@@ -1528,12 +1608,12 @@ path
     }
     #blogsection .right
     {
-        justify-content: start;
+        justify-content: end;
     }
     #blogsection .right .main-btn
     {
-        font-size: 12px;
-        padding: 5px 20px;
+        font-size: 10px;
+        padding: 5px 18px;
         font-weight: 400;
     }
     #blogsection .owl-dot.active
@@ -1546,7 +1626,7 @@ path
     }
     #blogsection .blog-desc h4
     {
-        font-size: 16px;
+        font-size: 18px;
     }
     #blogsection .blog-desc
     {
@@ -2649,7 +2729,7 @@ path
 .blog-main-innerpage .img-div
 {
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .blog-main-innerpage .img-div img
@@ -2684,6 +2764,165 @@ path
     {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap:10px;
+        gap:20px;
+    }
+    .blog-desc h4
+    {
+        font-size: 18px;
+    }
+
+    .blog-desc .service-btn
+    {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAREER PAGE */
+.career-section
+{
+    padding: 10% 0;
+}
+.career-section input
+{
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 30px #00000010;
+    border-radius: 30px;
+    padding: 15px 30px;
+    width: 100%;
+}
+.career-section input::placeholder
+{
+    font-size: 14px;
+    /* color: #00000080; */
+}
+.career-section button
+{
+    width: 50%;
+    border: none;
+}
+.career-section .career-form
+{
+    padding:80px;
+    box-shadow: 0 0 30px #00000010;
+    border-radius: 30px;
+    margin-top:60px;
+}
+.career-section .career-form h4
+{
+    font-weight: 600;
+}
+.career-section .career-form .upload
+{
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.upload-main
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 5px 30px #00000010;
+    border: 1px solid #000 !important;
+}
+.career-section .career-form .form-items
+{
+    margin-bottom: 20px;
+    padding:0;
+}
+.career-section .main-btn
+{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px)
+{
+    .w-md-50
+    {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    .career-section .career-form
+    {
+        padding: 50px;
+    }
+    .career-section input
+    {
+        /* padding: 10px 30px; */
+    }
+    .career-section .main-btn
+    {
+        padding:15px;
+    }
+    .career-section button
+    {
+        width: 100%;
+        border: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .career-section .career-form
+    {
+        padding: 40px;
+    }
+    .upload-main
+    {
+        height: unset;
+        padding: 10px 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+    .career-section .career-form
+    {
+        padding: 30px;
+        border-radius: 20px;
+        margin-top:30px;
+    }
+    .career-section .career-form h4
+    {
+        font-size: 18px;
     }
 }

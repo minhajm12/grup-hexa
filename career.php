@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsroom</title>
+    <title>Career</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/logo/favicon.png" type="image/x-icon">
@@ -33,7 +33,7 @@
         <div class="inner-pg-bnner">
             <div class="container">
                 <div class="inner-main-title">
-                    <h2>Our Newsroom</h2>
+                    <h2>Hexa Career</h2>
                 </div>
             </div>
         </div>
@@ -41,67 +41,40 @@
 
 
 
-    <section id="bloginner-page">
+    <section class="career-section">
         <div class="container">
-            <div class="blog-top">
-                <h2 class="main-title">Recent <span class="main-grade">Blogs</span></h2>
-                <p class="main-para text-start w-100 w-md-50 pt-2">Get the latest news and feature stories on our businesses, community initiatives, heritage and people. Scroll to read.</p>
-            </div>
-            <div class="blog-main-innerpage pt-4">
-                <div class="blog-items">
-                    <div class="img-div">
-                        <img src="assets/img/blogs/blog-1.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="blog-desc">
-                        <div class="top-blog">
-                            <p class="main-grade">Latest News</p>
-                            <div class="cal-sec">
-                                <i class="fa-regular fa-calendar"></i>
-                                <p>20 Dec, 2024</p>
+            <h2 class="main-title">Join <span class="main-grade">Grup Hexa</span></h2>
+            <p class="main-para text-start w-100 w-md-50 pt-2">Get the latest news and feature stories on our businesses, community initiatives, heritage and people. Scroll to read.</p>
+            <div class="career-form">
+                <h4>Fill the Application Form</h4>
+                <form action="" class=" pt-3 pt-md-4">
+                    <div class="row">
+                        <div class="col-12 col-md-4 form-items p-0 pe-md-3">
+                            <input type="text" class="" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-12 col-md-4 form-items p-0 pe-md-3">
+                            <input type="email" class="" placeholder="Email Address">
+                        </div>
+                        <div class="col-12 col-md-4 form-items">
+                            <input type="phone" class="" placeholder="Phone Number" required>
+                        </div>
+                        <div class="col-12 col-md-6 form-items p-0 pe-md-3">
+                            <input type="text" class="" placeholder="Your Qualification">
+                        </div>
+                        <div class="col-12 col-md-6 form-items upload">
+                            <div class="upload-main">
+                                <label for="" class="upload-resume">Upload Resume</label>
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div class="inputdiv">
+                                <input type="file" id="" name="" accept="application/pdf" style="z-index:2;opacity:0;" class="" required>
                             </div>
                         </div>
-                        <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
-                        <p>The corporate world currently brings to the limelight multiple environmental, economic, and
-                        </p>
-                        <a href="" class="service-btn">Read More</a>
-                    </div>
-                </div>
-                <div class="blog-items">
-                    <div class="img-div">
-                        <img src="assets/img/blogs/blog-2.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="blog-desc">
-                        <div class="top-blog">
-                            <p class="main-grade">Latest News</p>
-                            <div class="cal-sec">
-                                <i class="fa-regular fa-calendar"></i>
-                                <p>20 Dec, 2024</p>
-                            </div>
+                        <div class="col-12 w-100 text-center d-flex justify-content-center p-0">
+                            <button type="submit" class="main-btn">SUBMIT</button>
                         </div>
-                        <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
-                        <p>The corporate world currently brings to the limelight multiple environmental, economic, and
-                        </p>
-                        <a href="" class="service-btn">Read More</a>
                     </div>
-                </div>
-                <div class="blog-items">
-                    <div class="img-div">
-                        <img src="assets/img/blogs/blog-3.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="blog-desc">
-                        <div class="top-blog">
-                            <p class="main-grade">Latest News</p>
-                            <div class="cal-sec">
-                                <i class="fa-regular fa-calendar"></i>
-                                <p>20 Dec, 2024</p>
-                            </div>
-                        </div>
-                        <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
-                        <p>The corporate world currently brings to the limelight multiple environmental, economic, and
-                        </p>
-                        <a href="" class="service-btn">Read More</a>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>

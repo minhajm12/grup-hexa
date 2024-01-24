@@ -53,7 +53,7 @@
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa IT Solution</p>
-                                <h2 class="main-title">Information  <span class="main-grade"><br class="d-none d-md-none">Technology</span></h2>
+                                <h2 class="main-title">Information <span class="main-grade"><br class="d-none d-md-none">Technology</span></h2>
                             </div>
                             <div>
                                 <p class="main-para text-start">Hexa Business Transformation Services (Currently Biztras IT Solutions LLC) was founded with the core objective to provide public and private sectors across the globe with best-in-class IT services and Enterprise Business Solutions that will help clients to strengthen and transform their businesses. Hexa BTS understands that your business challenges and opportunities are unique. That’s why we’ve developed a portfolio of solutions that is tailored to meet the specific demands you face in your industry.</p>
@@ -78,7 +78,7 @@
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-none d-md-none">Products</span></h2>
+                                <h2 class="main-title">Specialized <span class="main-grade"><br class="d-none d-md-none">Products</span></h2>
                             </div>
                             <div class="list-div">
                                 <ul class="p-0">
@@ -100,13 +100,13 @@
                     <a href="https://biztras.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/biztras.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
                     <a href="https://biztras.com/">
                         <div class="btn">
                             <img src="assets/img/services/inner/hexa-bt.png" alt="" class="img-fluid">
-                           <i class="fa-solid fa-arrow-right-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                     </a>
                 </div>
@@ -125,23 +125,8 @@
 
 
     <!-- CTA SECTION -->
-
-    <section class="cta-sec-main">
-        <div id="ctasection">
-            <div class="container">
-                <div class="back-logo">
-                    <img src="assets/img/logo/cta-logo.png" alt="">
-                </div>
-                <div class="cta-main">
-                    <h3 class="main-title">Connect with <span class="main-grade">Grup Hexa</span></h3>
-                    <p class="main-para">Gruphexa transforms communities, designing, building, and operating infrastructure
-                        to enhance daily life and mobility. As investors and operators, we play a vital role in shaping
-                        cities and regions.</p>
-                    <a href="" class="main-btn">Contact Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include('inc/cta-section.php'); ?>
+    <!-- END CTA SECTION -->
 
 
 
@@ -151,7 +136,6 @@
 
     <!-- Service Section -->
     <?php include('inc/service-inner-slider.php'); ?>
-    
 
 
 
@@ -160,8 +144,10 @@
 
 
 
+
+    <!-- FOOTER SECTION  -->
     <?php include('inc/footer.php'); ?>
-
+    <!-- FOOTER SECTION END -->
 
 
 
@@ -190,8 +176,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
-    
+
+
     <script src="assets/js/service-slider.js"></script>
 
 </body>
