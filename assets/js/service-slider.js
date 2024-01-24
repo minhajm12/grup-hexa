@@ -14,14 +14,14 @@ $(document).ready(function(){
         responsive:{
             0:{
                 items:1,
-                autoplayTimeout:2500
+                autoplayTimeout:3500
             },
             600:{
                 items:2,
                 autoplayTimeout:3000
             },
             1300:{
-                items:3
+                items:2
             },
             1500:{
                 items:3

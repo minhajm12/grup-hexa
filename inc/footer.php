@@ -130,3 +130,9 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>

@@ -283,6 +283,14 @@ transition: .3s ease;
     transform-origin: 50% 50%; 
 }
 
+.offcanvas-header
+{
+    padding: 30px;
+}
+.offcanvas-header .navbar-brand img
+{
+    width: 60%;
+}
 
 
 
@@ -710,7 +718,7 @@ path
 {
     height: fit-content;
 }
-#blogsection .blog-main
+.blog-main
 {
     margin-top:40px;
     position: relative;
@@ -718,41 +726,40 @@ path
     /* grid-template-columns: repeat(3,1fr); */
     /* gap:20px; */
 }
-#blogsection .blog-main .img-div
+.blog-main .img-div
 {
     overflow: hidden;
     border-radius: 20px;
 }
-#blogsection .blog-main .img-div img
+.blog-main .img-div img
 {
     transition: .3s ease;
     filter: saturate(0) ;
 }
-#blogsection .blog-main .img-div:hover img
+.blog-main .img-div:hover img
 {
     scale: 1.1;
 }
-#blogsection .blog-main .blog-desc .main-grade
+.blog-main .blog-desc .main-grade
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     width: fit-content;
     font-family: 'Metropolis';
 }
-#blogsection .blog-desc .top-blog
+.blog-desc .top-blog
 {
     display: flex;
     justify-content: space-between;
 }
-#blogsection .blog-desc
+.blog-desc
 {
     padding: 20px;
     gap:60px;
     display: flex;
     flex-direction: column;
     gap:15px;
-}
-#blogsection .blog-desc .top-blog p, #blogsection .blog-desc .top-blog i
+} .blog-desc .top-blog p, .blog-desc .top-blog i
 {
     margin: 0;
     font-size: 14px;
@@ -767,7 +774,7 @@ path
 {
     margin-top: -3px;
 }
-#blogsection .blog-desc h4
+.blog-desc h4
 {
     font-weight: 700;
     font-size: 20px;
@@ -775,12 +782,12 @@ path
     line-height: 22px;
     margin: 0;
 }
-#blogsection .blog-desc p
+.blog-desc p
 {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 }
-#blogsection .blog-desc .service-btn
+.blog-desc .service-btn
 {
     font-weight: 500;
     font-size: 14px;
@@ -973,6 +980,7 @@ path
 #footersection .copyright .main-grade
 {
     font-weight: 600;
+    text-decoration: none;
 }
 
 
@@ -1626,7 +1634,7 @@ path
 
     .main-title
     {
-        font-size: 22px;
+        font-size: 24px;
     }
     .main-para
     {
@@ -1685,7 +1693,7 @@ path
     }
     #servicesection .service-head
     {
-        font-size: 18px;
+        font-size: 16px !important;
     }
     
 
@@ -1796,8 +1804,9 @@ path
 .inner-main-title h2
 {
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
+    text-align: center;
 }
 
 #abt-page-sec
@@ -2026,7 +2035,7 @@ path
     }
     .inner-main-title h2
     {
-        font-size: 22px;
+        font-size: 24px !important;
     }
 
     #header .container-fluid
@@ -2100,7 +2109,7 @@ path
 }
 #form-section .right .main-form-div input
 {
-    border:1px #000 solid;
+    border:.1px #000 solid;
     outline: none;
     padding:10px 20px;
     border-radius: 30px;
@@ -2109,10 +2118,10 @@ path
 }
 #form-section .right .main-form-div textarea 
 {
-    border:1px #000 solid;
+    border:.1px #000 solid;
     outline: none;
     padding:10px 20px;
-    border-radius: 20px;
+    border-radius: 20px;  
     width: 100%;
     font-family: var(--scndry-font);
 }
@@ -2162,11 +2171,12 @@ path
 {
     color:#fff;
     font-weight: 600;
+    font-size: 22px;
 }
 #locationsection .branches-section p
 {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 #locationsection .branches-section
 {
@@ -2262,67 +2272,67 @@ path
 {
     background: url(../img/banner/epc-banner-img.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #bi-banner
 {
     background: url(../img/banner/business-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #chem-banner
 {
     background: url(../img/banner/chemi-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #hr-banner
 {
     background: url(../img/banner/hr-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #it-banner
 {
     background: url(../img/banner/it-banner-img.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #media-banner
 {
     background: url(../img/banner/media-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #social-banner
 {
     background: url(../img/banner/social-banner-img.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #integrity-banner
 {
     background: url(../img/banner/integrity.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #values-banner
 {
     background: url(../img/banner/value.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #sustainability-banner
 {
     background: url(../img/banner/sustainability.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 #empowerment-banner
 {
     background: url(../img/banner/empowerment.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 
@@ -2330,7 +2340,7 @@ path
 {
     background: url(../img/banner/company-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 
@@ -2338,7 +2348,7 @@ path
 {
     background: url(../img/banner/commitment-banner.jpg) !important;
     background-position: top center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 /* #environmental-ambition-section .main-title
@@ -2605,13 +2615,75 @@ path
         margin-bottom: 0;
         font-size: 16px;
     }
+    .innerpg-section .weblink-sec .items .btn
+    {
+        gap:20px;
+    }
     .innerpg-section .weblink-sec .items .btn i
     {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .innerpg-section .media-head
     {
         font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+#bloginner-page
+{
+    padding:10% 0;
+}
+.blog-main-innerpage
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+.blog-main-innerpage .img-div
+{
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.blog-main-innerpage .img-div img
+{
+    transition: .3s ease;
+    filter: saturate(0);
+}
+.blog-main-innerpage .img-div img:hover
+{
+    scale: 1.1;
+}
+.blog-main-innerpage .blog-desc .main-grade
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    .blog-main-innerpage
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .blog-main-innerpage
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:10px;
     }
 }

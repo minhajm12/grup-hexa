@@ -78,7 +78,7 @@
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-block d-md-none">Products</span></h2>
+                                <h2 class="main-title">Specialized  <span class="main-grade"><br class="d-none d-md-none">Products</span></h2>
                             </div>
                             <div class="list-div">
                                 <ul class="p-0">

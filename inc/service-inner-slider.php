@@ -31,7 +31,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Business Intelligence</h2>
                         <p class="service-para">GCC’s Leading Cloud ERP Software For Contracting, Trading And Manufacturing Companies, to simplify the Contracting or Trading or Manufacturing business with Tranquil ERP Software and manage entire business process </p>
-                        <a href="" class="service-btn">
+                        <a href="business-intelligence.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -46,7 +46,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Chemicals Manufacturing & Distributions</h2>
                         <p class="service-para">A new-generation Oil Field Chemical manufacturer & supplier offering a complete portfolio of chemicals right from to Drilling, Completion & Production. Our efforts are continuous on enhancing the quality of diversified substances to make the process more effective</p>
-                        <a href="" class="service-btn">
+                        <a href="chemical.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -61,7 +61,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">IT Enable Service</h2>
                         <p class="service-para">Hexa Business Transformation Services (Currently Biztras IT Solutions LLC) was founded with the core objective to provide public and private sectors across the globe with best-in-class IT services and Enterprise Business Solutions.</p>
-                        <a href="" class="service-btn">
+                        <a href="information-technology.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -76,7 +76,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">HR Solution</h2>
                         <p class="service-para">Axxon is innovative & powerful workforce solutions. Headquartered in the capital city of Abu Dhabi, Axxon HR Solutions provides exceptional workforce solutions tailored to meet the needs of businesses</p>
-                        <a href="" class="service-btn">
+                        <a href="hr-solution.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -91,7 +91,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Media Service</h2>
                         <p class="service-para">We shoot advertisement, we make corporate films, we make films, we are oneness. Oneness has a handpicked pool of talented artists, visualizer, strategists & writer, designers & developers and illustrators. </p>
-                        <a href="" class="service-btn">
+                        <a href="media.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>
@@ -106,7 +106,7 @@
                     <div class="service-desc">
                         <h2 class="service-head">Social Responsibility</h2>
                         <p class="service-para">The corporate world currently brings to the limelight multiple environmental, economic, and social impacts that are brought about by business operations. </p>
-                        <a href="" class="service-btn">
+                        <a href="social-responsibility.php" class="service-btn">
                             <p>Explore</p>
                             <img src="assets/img/icons/arrow.svg" alt="" class="img-fluid">
                         </a>

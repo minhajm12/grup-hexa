@@ -53,7 +53,7 @@
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa EPC</p>
-                                <h2 class="main-title">Engineering, Procurement & <span class="main-grade"><br class="d-block d-md-none">Constructions. LLC</span></h2>
+                                <h2 class="main-title">Engineering, Procurement & <span class="main-grade"><br class="d-none">Constructions. LLC</span></h2>
                             </div>
                             <div>
                                 <p class="main-para text-start">Since industries & infrastructure has a major impact on cities, regions and their citizens, in 2007, Grup Hexa invested in EPC to delivers quality, environment-friendly and socially beneficial performance in its long-term relationships with all its stakeholders in the fields of Oil and Gas, Power, Energy, Petrochemical, Marine & Ports, Iron & Steel, Airport & Aviation and Infrastructure Development.</p>

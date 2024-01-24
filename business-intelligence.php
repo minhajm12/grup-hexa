@@ -53,7 +53,7 @@
                         <div class="content-parasec">
                             <div>
                                 <p class="top-title text-start">Hexa BI</p>
-                                <h2 class="main-title">Business <span class="main-grade"><br class="d-block d-md-none">Intelligence</span></h2>
+                                <h2 class="main-title">Business <span class="main-grade">Intelligence</span></h2>
                             </div>
                             <div>
                                 <p class="main-para text-start">GCC’s Leading Cloud ERP Software For Contracting, Trading And Manufacturing Companies, to simplify the Contracting or Trading or Manufacturing business with Tranquil ERP Software and manage entire business process without the paperwork, in one superior cloud solution. As Tranquil is cloud ERP software, you have access to your business data anywhere, any time. We have More than 1000+ companies worldwide trust Tranquil ERP.</p>
@@ -77,7 +77,7 @@
                     <div class="col-12 col-lg-6 right">
                         <div class="content-parasec">
                             <div>
-                                <h2 class="main-title">Tranquil <span class="main-grade"><br class="d-block d-md-none">ERP Focuses</span></h2>
+                                <h2 class="main-title">Tranquil <span class="main-grade"><br class="d-none d-md-none">ERP Focuses</span></h2>
                             </div>
                             <div class="list-div">
                                 <ul class="p-0">
