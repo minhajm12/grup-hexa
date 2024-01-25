@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -25,6 +27,12 @@
 </head>
 
 <body>
+
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
     <!-- epc banner Section -->
     <section id="epc-banner" class="mainbanner-sec">
 
@@ -33,7 +41,7 @@
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
                     <h2>Hexa EPC</h2>
                 </div>
             </div>
@@ -50,7 +58,7 @@
             <div class="top-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 pt-md-5 left order-2 order-lg-1">
-                        <div class="content-parasec">
+                        <div class="content-parasec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
                             <div>
                                 <p class="top-title text-start">Hexa EPC</p>
                                 <h2 class="main-title">Engineering, Procurement & <span class="main-grade"><br class="d-none">Constructions. LLC</span></h2>
@@ -62,7 +70,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
-                        <div class="img-div">
+                        <div class="img-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
                             <img src="assets/img/services/inner/epc-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -70,12 +78,12 @@
             </div>
             <div class="bottom-sec">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left">
+                    <div class="col-12 col-lg-6 left" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                         <div class="img-div">
                             <img src="assets/img/services/inner/epc-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 right">
+                    <div class="col-12 col-lg-6 right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <div class="content-parasec">
                             <div>
                                 <h2 class="main-title">Specialized <span class="main-grade"><br class="d-none">Areas in EPC</span></h2>
@@ -96,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="weblink-sec">
+            <div class="weblink-sec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
                     <a href="https://reftco.com/">

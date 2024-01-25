@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,6 +26,11 @@
 </head>
 
 <body>
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
     <!-- media banner Section -->
     <section id="media-banner" class="mainbanner-sec">
 
@@ -32,7 +39,7 @@
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
                     <h2>Media Production</h2>
                 </div>
             </div>
@@ -49,7 +56,7 @@
             <div class="top-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 left order-2 order-lg-1">
-                        <div class="content-parasec">
+                        <div class="content-parasec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
                             <div>
                                 <p class="top-title text-start">Hexa Media</p>
                                 <h2 class="main-title">Media <span class="main-grade">Production</span></h2>
@@ -64,7 +71,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
-                        <div class="img-div">
+                        <div class="img-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
                             <img src="assets/img/services/inner/media-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -73,12 +80,12 @@
             <div class="bottom-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
-                        <div class="img-div">
+                        <div class="img-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                             <img src="assets/img/services/inner/media-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <div class="content-parasec">
+                        <div class="content-parasec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                             <div>
                                 <h5 class="media-head">Video Production</h5>
                                 <p class="main-para text-start">Oneness Media Mill engages in media production with the aim of making headline-grabbing programs, cinema and television commercials. We work on advertisements passionately and effectively, thanks to the eclectic mix of talented technicians and think-tanks who know well about the conscious and subliminal perceptions of advertisement and consumer dynamics.</p>
@@ -106,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="weblink-sec">
+            <div class="weblink-sec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                 <h5>For More Details Visit Our Website</h5>
                 <div class="items">
                     <a href="http://www.onenessmediamill.in/">

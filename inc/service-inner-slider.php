@@ -1,10 +1,10 @@
 <section id="servicesection" class="service-inner">
         <div class="container">
-            <div class="top-sec">
+            <div class="top-sec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                 <p class="top-title">Services</p>
                 <h2 class="main-title">Grup Hexa - <span class="main-grade">Verticals</span></h2>
             </div>
-            <div class="services owl-carousel">
+            <div class="services owl-carousel" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                 <div class="service-item">
                     <div class="img-div">
                         <img src="assets/img/services/epc-service.jpg" alt="" class="img-fluid">

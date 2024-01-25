@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,15 +26,20 @@
 </head>
 
 <body>
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
     <!-- media banner Section -->
-    <section id="commitment-banner" class="mainbanner-sec">
+    <section id="blog-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
                     <h2>Our Newsroom</h2>
                 </div>
             </div>
@@ -41,14 +48,14 @@
 
 
 
-    <section id="bloginner-page">
+    <section id="blog-page">
         <div class="container">
-            <div class="blog-top">
+            <div class="blog-top" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
                 <h2 class="main-title">Recent <span class="main-grade">Blogs</span></h2>
                 <p class="main-para text-start w-100 w-md-50 pt-2">Get the latest news and feature stories on our businesses, community initiatives, heritage and people. Scroll to read.</p>
             </div>
-            <div class="blog-main-innerpage pt-4">
-                <div class="blog-items">
+            <div class="blog-main-page pt-4">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-1.png" alt="" class="img-fluid">
                     </div>
@@ -63,10 +70,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-2.png" alt="" class="img-fluid">
                     </div>
@@ -81,10 +88,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-3.png" alt="" class="img-fluid">
                     </div>
@@ -99,7 +106,7 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
             </div>

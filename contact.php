@@ -17,6 +17,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,6 +28,10 @@
 </head>
 
 <body>
+
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
 
 
 
@@ -36,7 +44,7 @@
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
                     <h2>Contact Hexa</h2>
                 </div>
             </div>
@@ -52,12 +60,12 @@
     <section id="form-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 left">
+                <div class="col-12 col-lg-6 left" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="1000">
                     <div class="img-div">
                         <img src="assets/img/contact-img.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 right">
+                <div class="col-12 col-lg-6 right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
                     <div>
                         <h2 class="main-title">Connect with <span class="main-grade">Hexa</span></h2>
                         <p class="main-para text-start">Fill up the Form and our team will contact you.</p>
@@ -82,7 +90,7 @@
     <!-- LOCATION SECTION -->
     <section id="locationsection">
         <div class="container-fluid">
-            <div class="branches-main">
+            <div class="branches-main" data-aos="zoom-in" data-aos-duration="1000">
                 <h3 class="main-title">Hexa <span class="main-grade">Branches</span></h3>
                 <div class="branches-section">
                     <div class="row">
@@ -123,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="location-mapsec">
+            <div class="location-mapsec" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="100">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d463985.2117239508!2d46.725025!3d24.696498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1705643646637!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

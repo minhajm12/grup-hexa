@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career</title>
+    <title>Newsroom</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/logo/favicon.png" type="image/x-icon">
@@ -32,7 +32,7 @@
 
 
     <!-- media banner Section -->
-    <section id="career-banner" class="mainbanner-sec">
+    <section id="blog-banner" class="mainbanner-sec">
 
 
         <?php include('inc/header.php'); ?>
@@ -40,7 +40,7 @@
         <div class="inner-pg-bnner">
             <div class="container">
                 <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
-                    <h2>Hexa Career</h2>
+                    <h2>Our Newsroom</h2>
                 </div>
             </div>
         </div>
@@ -48,40 +48,20 @@
 
 
 
-    <section class="career-section">
+    <section id="blog-inner-page">
         <div class="container">
-            <h2 class="main-title" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">Join <span class="main-grade">Grup Hexa</span></h2>
-            <p class="main-para text-start w-100 w-md-50 pt-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1400">Get the latest news and feature stories on our businesses, community initiatives, heritage and people. Scroll to read.</p>
-            <div class="career-form" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
-                <h4>Fill the Application Form</h4>
-                <form action="" class=" pt-3 pt-md-4">
-                    <div class="row">
-                        <div class="col-12 col-md-4 form-items p-0 pe-md-3">
-                            <input type="text" class="" placeholder="Your Name" required>
-                        </div>
-                        <div class="col-12 col-md-4 form-items p-0 pe-md-3">
-                            <input type="email" class="" placeholder="Email Address">
-                        </div>
-                        <div class="col-12 col-md-4 form-items">
-                            <input type="phone" class="" placeholder="Phone Number" required>
-                        </div>
-                        <div class="col-12 col-md-6 form-items p-0 pe-md-3">
-                            <input type="text" class="" placeholder="Your Qualification">
-                        </div>
-                        <div class="col-12 col-md-6 form-items upload">
-                            <div class="upload-main">
-                                <label for="" class="upload-resume">Upload Resume</label>
-                                <i class="fa-solid fa-link"></i>
-                            </div>
-                            <div class="inputdiv">
-                                <input type="file" id="" name="" accept="application/pdf" style="z-index:2;opacity:0;" class="" required>
-                            </div>
-                        </div>
-                        <div class="col-12 w-100 text-center d-flex justify-content-center p-0">
-                            <button type="submit" class="main-btn">SUBMIT</button>
-                        </div>
-                    </div>
-                </form>
+            <div class="top-sec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
+                <h4 class="main-grade">Latest News</h4>
+                <h2 class="main-title w-100 w-md-50">Saudi Aramco joins global oil heavyweights in emission targets</h2>
+            </div>
+            <div class="bottom-sec">
+                <div class="image-div blog-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay=""></div>
+                <div class="blog-inner-desc pt-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
+                    <p class="main-para text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa sequi neque possimus modi repellendus exercitationem odio voluptate illum sint dignissimos amet tempora aperiam voluptates, vero quidem, labore dolores distinctio quos. Deleniti excepturi voluptas quis est, hic labore accusantium? Laboriosam vel numquam, dolor esse provident ea accusantium ipsa, quod quaerat amet recusandae modi error dignissimos at totam. Suscipit a animi repudiandae quia rerum excepturi voluptatibus amet consectetur culpa placeat expedita quae corrupti, similique ut, delectus officiis.</p>
+                    <p class="main-para text-start">Et eligendi dignissimos, eius maiores debitis ullam consectetur ad pariatur reiciendis aut quidem in distinctio fugit odit culpa necessitatibus autem nihil nesciunt doloribus! Animi?. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ea consectetur, fuga repellat error voluptatum at ratione exercitationem voluptatibus deserunt</p>
+                    <p class="main-para text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste earum voluptatum molestias quibusdam recusandae minima quas nulla quis expedita saepe obcaecati perferendis at nam vel, mollitia, laborum in consequuntur dolor non illum quod repudiandae sed distinctio? Maxime modi quo, quia magnam sint nulla nihil recusandae officia debitis, quam perferendis nisi ut corporis quod quisquam natus sapiente rerum non. Itaque, quibusdam dolore eum quos dolor earum ipsam in aliquam optio eligendi! Ullam, illo quis iste eos molestiae quidem inventore, fugit nemo quia reiciendis voluptates explicabo laudantium cum nulla optio. Aspernatur soluta facere, maiores dolor tempore blanditiis et consectetur optio dignissimos, recusandae magni maxime fugit eligendi. Assumenda velit doloremque et cupiditate id voluptatem sit vel laboriosam iure. Aliquam perferendis optio quas iure, fugit expedita animi unde magnam, voluptates natus suscipit. Quasi repudiandae, magnam molestias voluptatem ratione sint vitae nulla soluta cumque perspiciatis! Beatae voluptate perferendis accusamus atque vero delectus veniam quam reiciendis?</p>
+
+                </div>
             </div>
         </div>
     </section>
@@ -133,9 +113,7 @@
         </div>
     </section> -->
 
-    <!-- CTA SECTION -->
-    <?php include('inc/cta-section.php'); ?>
-    <!-- END CTA SECTION -->
+
 
 
 

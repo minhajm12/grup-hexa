@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,6 +26,11 @@
 </head>
 
 <body>
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
     <!-- media banner Section -->
     <section id="empowerment-banner" class="mainbanner-sec">
 
@@ -32,7 +39,7 @@
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1000">
                     <h2>Empowerment </h2>
                 </div>
             </div>
@@ -49,7 +56,7 @@
             <div class="top-sec">
                 <div class="row">
                     <div class="col-12 col-lg-6 left order-2 order-lg-1">
-                        <div class="content-parasec">
+                        <div class="content-parasec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
                             <div>
                                 <p class="top-title text-start">Social Responsibility</p>
                                 <h2 class="main-title">Empowerment: <span class="main-grade">Prognostic of Moral Progress!</span></h2>
@@ -61,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right order-1 order-lg-2">
-                        <div class="img-div">
+                        <div class="img-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
                             <img src="assets/img/services/inner/empowerment.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -70,12 +77,12 @@
             <div class="bottom-sec pb-0">
                 <div class="row">
                     <div class="col-12 col-lg-6 left">
-                        <div class="img-div">
+                        <div class="img-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                             <img src="assets/img/services/inner/empowerment-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <div class="content-parasec">
+                        <div class="content-parasec" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                             <div>
                                 <!-- <h5 class="media-head">Video Production</h5> -->
                                 <p class="main-para text-start">Gruphexa cherishes at the crux of its value-based infrastructure, an honest, trustworthy and well-researched methodology of implementation. At a time when climate, social and human rights and the environment as a whole is taking a toll due to the impending doom brought about by human development, it is indispensable to address the elephant in the room and channel businesses such that we are able to maximize the value and profit of shareholders.</p>

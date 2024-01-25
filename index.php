@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,6 +26,11 @@
 </head>
 
 <body>
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
 
     <!-- Hero Section -->
     <div id="herosection">
@@ -34,12 +41,12 @@
         <div id="herobanner-section">
             <div class="container">
                 <div class="col-lg-6 col-12 left">
-                    <h1 class="banner-title">Inspire. <span class="main-grade">Innovate.</span></h1>
-                    <p class="banner-para">We design, build and operate facilities and infrastructure that help improve
+                    <h1 class="banner-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">Inspire. <span class="main-grade">Innovate.</span></h1>
+                    <p class="banner-para" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">We design, build and operate facilities and infrastructure that help improve
                         daily life mobility for all. As an investor, builder and operator of industries and
                         infrastructure, gruphexa plays a key role in the transformation of cities, regions and
                         community.</p>
-                    <a href="contact.php" class="banner-btn">Enquire Now</a>
+                    <a href="contact.php" class="banner-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Enquire Now</a>
 
                     <div class="banner-social">
                         <a href="">
@@ -64,7 +71,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 right"></div>
+                <div class="col-lg-6 col-12 right" data-aos="fade-up"></div>
             </div>
         </div>
     </div>
@@ -73,7 +80,7 @@
     <!-- About Section -->
     <div id="aboutsection">
         <div class="container">
-            <div class="col-md-12 abt-main">
+            <div class="col-md-12 abt-main" data-aos="zoom-in" data-aos-duration="1000">
                 <div>
                     <p class="top-title text-center">About Us</p>
                     <h2 class="main-title">Grup Hexa - <span class="main-grade">Outlook</span></h2>
@@ -95,12 +102,12 @@
     <!-- Service Section -->
     <div id="servicesection">
         <div class="container">
-            <div class="top-sec">
+            <div class="top-sec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                 <p class="top-title">Services</p>
                 <h2 class="main-title">Grup Hexa - <span class="main-grade">Verticals</span></h2>
             </div>
             <div class="services">
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/services/epc-service.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -117,7 +124,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="img-div">
                         <img src="assets/img/services/business-engineering-service.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -132,7 +139,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/services/chemical-engineering-service.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -147,7 +154,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="img-div">
                         <img src="assets/img/services/it-service.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -162,7 +169,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/services/hr-solution.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -177,7 +184,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="img-div">
                         <img src="assets/img/services/media.jpg" alt="" class="img-fluid">
                         <!-- <img src="assets/img/logo/hexa-icon.png" alt="" class="top-hexa"> -->
@@ -212,7 +219,7 @@
     <div id="social-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 left order-2 order-md-1">
+                <div class="col-12 col-lg-6 left order-2 order-md-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                     <div>
                         <p class="top-title">Social Responsibility</p>
                         <h3 class="main-title">Hexa <span class="main-grade">Foundation</span></h3>
@@ -227,9 +234,9 @@
                 <div class="col-12 col-lg-6 right order-1 order-md-2">
                     <div class="img-div">
                         <div>
-                            <img src="assets/img/social-img-1.png" alt="" class="img-fluid">
-                            <img src="assets/img/social-img-2.png" alt="" class="socialimg img-fluid">
-                            <img src="assets/img/social-img-3.png" alt="" class="socialimg img-fluid">
+                            <img src="assets/img/social-img-1.png" alt="" class="img-fluid" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+                            <img src="assets/img/social-img-2.png" alt="" class="socialimg img-fluid" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
+                            <img src="assets/img/social-img-3.png" alt="" class="socialimg img-fluid" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="900">
                         </div>
                     </div>
                 </div>
@@ -250,17 +257,17 @@
         <div class="container">
             <div class="blog-topsec">
                 <div class="row">
-                    <div class="col-8 col-md-6 left">
+                    <div class="col-8 col-md-6 left" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
                         <p class="top-title">Blogs</p>
                         <h3 class="main-title">Hexa <span class="main-grade">Newsroom</span></h3>
                     </div>
-                    <div class="col-4 col-md-6 right ">
+                    <div class="col-4 col-md-6 right " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                         <a href="blog.php" class="main-btn mt-2 mt-md-0">More Blogs</a>
                     </div>
                 </div>
             </div>
-            <div class="blog-main owl-carousel">
-                <div class="blog-items">
+            <div class="blog-main owl-carousel" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-1.png" alt="" class="img-fluid">
                     </div>
@@ -275,10 +282,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-2.png" alt="" class="img-fluid">
                     </div>
@@ -293,10 +300,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-3.png" alt="" class="img-fluid">
                     </div>
@@ -311,10 +318,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-1.png" alt="" class="img-fluid">
                     </div>
@@ -329,10 +336,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-2.png" alt="" class="img-fluid">
                     </div>
@@ -347,10 +354,10 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
-                <div class="blog-items">
+                <div class="blog-items" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                     <div class="img-div">
                         <img src="assets/img/blogs/blog-3.png" alt="" class="img-fluid">
                     </div>
@@ -365,7 +372,7 @@
                         <h4>Saudi Aramco joins global oil heavyweights in emission targets</h4>
                         <p>The corporate world currently brings to the limelight multiple environmental, economic, and
                         </p>
-                        <a href="" class="service-btn">Read More</a>
+                        <a href="blog-inner-page.php" class="service-btn">Read More</a>
                     </div>
                 </div>
             </div>

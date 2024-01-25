@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -25,6 +27,11 @@
 </head>
 
 <body>
+
+    <!-- HEXA PRELOADER -->
+    <?php include('inc/preloader.php'); ?>
+
+
     <!-- About Hero Section -->
     <section id="about-hero" class="mainbanner-sec">
 
@@ -33,7 +40,7 @@
 
         <div class="inner-pg-bnner">
             <div class="container">
-                <div class="inner-main-title">
+                <div class="inner-main-title" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000">
                     <h2>Hexa Outlook</h2>
                 </div>
             </div>
@@ -50,7 +57,7 @@
         <div class="container">
             <div class="top-sec">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left">
+                    <div class="col-12 col-lg-6 left" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1100">
                         <div>
                             <p class="top-title text-start">About Us</p>
                             <h2 class="main-title">Outlook & <span class="main-grade"><br class="d-block d-md-none">Strategic Vision</span></h2>
@@ -61,7 +68,7 @@
                         </div>
                         <!-- <a href="" class="main-btn">Know More</a> -->
                     </div>
-                    <div class="col-12 col-lg-6 right">
+                    <div class="col-12 col-lg-6 right" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1200">
                         <div class="main-right">
                             <div class="img-div">
                                 <img src="assets/img/abt-page-img-1.png" alt="" class="img-fluid">
@@ -82,12 +89,12 @@
             </div>
             <div class="bottom-sec">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left order-2 order-lg-1">
+                    <div class="col-12 col-lg-6 left order-2 order-lg-1" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="">
                         <div class="img-div">
                             <img src="assets/img/abt-page-img-2.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 right order-1 order-lg-2">
+                    <div class="col-12 col-lg-6 right order-1 order-lg-2" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
                         <p class="main-para text-start">The Group’s long term prospects also involve transforming its business lines, products and services, to provide sustainable solutions for the major challenges arising in today’s world.</p>
                         <p class="main-para text-start">The Group’s activities are a driving force in the transformation of cities and regions. Guided by its long-term perspective and vision of all-round performance, Grup Hexa aims to make a positive contribution to that transformation.</p>
                         <p class="main-para text-start">The Group has embarked on an in-depth conversation, with many of its teams and all its stakeholders, about the meaning of its mission, to home in on its ultimate purpose. We will share that purpose with everyone in our business ecosystem within 2021–2031.</p>
@@ -104,19 +111,19 @@
     <div class="about-iconsection">
         <div class="container">
             <div class="icon-main">
-                <a href="passion.php" class="icon-items">
+                <a href="passion.php" class="icon-items" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="">
                     <img src="assets/img/icons/passion-black.png" alt="" class="img-fluid">
                     <h4 class="main-titile">Our <span class="main-grade">Passion</span></h4>
                 </a>
-                <a href="team.php" class="icon-items">
+                <a href="team.php" class="icon-items" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
                     <img src="assets/img/icons/team-black.png" alt="" class="img-fluid">
                     <h4 class="main-titile">Our <span class="main-grade">Team</span></h4>
                 </a>
-                <a href="approach.php" class="icon-items">
+                <a href="approach.php" class="icon-items" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
                     <img src="assets/img/icons/approach-black.png" alt="" class="img-fluid">
                     <h4 class="main-titile">Our <span class="main-grade">Approach</span></h4>
                 </a>
-                <a href="quality.php" class="icon-items">
+                <a href="quality.php" class="icon-items" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900">
                     <img src="assets/img/icons/quality-black.png" alt="" class="img-fluid">
                     <h4 class="main-titile">Our <span class="main-grade">Quality</span></h4>
                 </a>
@@ -147,7 +154,7 @@
 
 
 
-    
+
     <!-- FOOTER SECTION  -->
     <?php include('inc/footer.php'); ?>
     <!-- FOOTER SECTION END -->
